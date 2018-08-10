@@ -1,0 +1,25 @@
+20-2-2014:
+
+start:  file CREM : 20150206 Comp_PC_Tool_v1.10_LNG_UPDATE
+Changed: 
+* To file name 20150220  Comp_PC_Tool_v1.11_LNG_UPDATE
+
+* Dutch language file 
+	*controle waterta changed in controle watertank (by adding 2 spaces)
+	* Removed multiple spaces behind “plaats opvanbak van, 1 ltr druk  “, “Spoelen nodig, Starten: druk” to get 1 enter-symbol instead of 2
+	* Changed “Verwijder en plaats” with “watertank volledig”  (line 1 and 2) to get the right order of text 
+	* Caution hot liquids changed in Pas op, hete vloeistof"
+
+* German language file
+	* Changed  “und wieder einsetzen” with “Wassertank entnehmen” (line 1 and 2)  to get the right order of text 
+
+* Changed French file:
+	* Changed  “Cuve pleine” with “Retirer et installer” (line 1 and 2)
+
+* Changed Danish file: 
+	* Extra enter line 355 (to get correct messages)
+	* Change é in e (é is not shown on display)
+	* Removed 1 space in “Skylning påkrævet ryk ENTER  for at starte” at place of enter-symbol
+	* Changed line 1 and 2 of vandtanken korrekt,  Fjern og placer
+
+* Added recipes 36 decaf cafe creme 2 , 37 decaf cofffee 2, 38 decaf espresso 2, 39 espresso 2

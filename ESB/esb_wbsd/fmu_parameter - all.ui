@@ -1,0 +1,1272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FMU_PARAMETER</class>
+ <widget class="QMainWindow" name="FMU_PARAMETER">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>29</x>
+      <y>29</y>
+      <width>751</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QTabWidget" name="tab_parameter">
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <widget class="QWidget" name="tab_sub_sys">
+        <attribute name="title">
+         <string>System Parameter</string>
+        </attribute>
+        <widget class="QWidget" name="verticalLayoutWidget_2">
+         <property name="geometry">
+          <rect>
+           <x>9</x>
+           <y>9</y>
+           <width>731</width>
+           <height>431</height>
+          </rect>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="2,5">
+            <item>
+             <widget class="QTreeWidget" name="treeWidget">
+              <column>
+               <property name="text">
+                <string>Param List</string>
+               </property>
+               <property name="textAlignment">
+                <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+               </property>
+              </column>
+              <item>
+               <property name="text">
+                <string>System Parameter</string>
+               </property>
+               <item>
+                <property name="text">
+                 <string>ID:0~99 Reserver</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:100 CS timeout</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:101 CS Volume</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:102 CS Temperature</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:103 CS Pump Speed</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:104 CS Delay Time</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:105 FF timeout</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:106 CLS timeout</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:107 Reserver</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:108 Reserver</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:109 Reserver</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:110 Conductivity Threshold1</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:111 Conductivity Threshold2</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:112 Milk contain detecter enable</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:113 CD sensor enable predispense</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:114 CD sensor enable dispense</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:115 Use flow meter</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:116 flow meter pulse</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:117 flow meter no pulse timeout</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:118 inlet valve open timeout</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:119 FTH connection detect enable</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:120 pump software protection</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:121 cup count for clean</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:122~199 Reserver</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:200 Ep time1</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:201 Ep pause time1</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:202 Fill volume1</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:203 Fill temp1</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:204 Fill pump speed1</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:205 Ep time2</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:206 Ep pause time2</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:207 stop time1</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:208 Rinseline volume1</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:209 Rinseline temp1</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:210 Rinseline speed1</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:211 Fill volume2</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:212 Fill temp2</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:213 Fill pump speed2</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:214 Circulation temp1</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:215 Circulation pump speed1</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:216 Circulation time1</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:217 Fill volume3</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:218 Fill temp3</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:219 Fill pump speed3</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:220 Circulation temp2</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:221 Circulation pump speed2</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:222 Circulation time2</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:223 Circulation numbers</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:224 Circulation temp3</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:225 Circulation pump speed3</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:226 Circulation time3</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:227 Air open time</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:228 EP time3</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:229 EP time4</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:230 EP time5</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:231 FL volume1</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:232 FL temp</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:233 FL volume2</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:234 FL pump speed</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:235 FL volume3</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:236 FL air3</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:237 FL time6</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ID:238 FL time7</string>
+                </property>
+               </item>
+              </item>
+             </widget>
+            </item>
+            <item>
+             <layout class="QGridLayout" name="gridLayout" columnstretch="1,4,2">
+              <item row="1" column="1">
+               <widget class="QLabel" name="lbl_info_2">
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Name</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="2">
+               <widget class="QPushButton" name="pushButton">
+                <property name="text">
+                 <string>SET</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QLabel" name="lbl_name">
+                <property name="text">
+                 <string>-</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="2">
+               <widget class="QSpinBox" name="sp_value">
+                <property name="maximum">
+                 <number>9999999</number>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QLabel" name="lbl_id">
+                <property name="text">
+                 <string>-</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLabel" name="label">
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>ID</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="2">
+               <widget class="QLabel" name="label_5">
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Value</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="0">
+               <spacer name="verticalSpacer">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="0" column="1">
+               <spacer name="verticalSpacer_2">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="3" column="0" colspan="2">
+               <widget class="QLabel" name="label_4">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                  <horstretch>1</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Description</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="0" colspan="2">
+               <widget class="QLabel" name="lbl_info">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                  <horstretch>1</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="text">
+                 <string>-</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="tab_sub_rcp">
+        <attribute name="title">
+         <string>Recipe Parameter</string>
+        </attribute>
+        <widget class="QWidget" name="verticalLayoutWidget_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>10</y>
+           <width>721</width>
+           <height>421</height>
+          </rect>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_3" stretch="1,9">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="2,1">
+            <property name="rightMargin">
+             <number>30</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="lbl">
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>Please Select the Recipe</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="cb_recipe"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QScrollArea" name="scrollArea">
+            <property name="widgetResizable">
+             <bool>true</bool>
+            </property>
+            <widget class="QWidget" name="scrollAreaWidgetContents">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>717</width>
+               <height>370</height>
+              </rect>
+             </property>
+             <widget class="QWidget" name="gridLayoutWidget_2">
+              <property name="geometry">
+               <rect>
+                <x>-1</x>
+                <y>9</y>
+                <width>711</width>
+                <height>356</height>
+               </rect>
+              </property>
+              <layout class="QGridLayout" name="gly_rcp" columnstretch="1,2,5,2,1">
+               <item row="9" column="0">
+                <widget class="QLabel" name="label_18">
+                 <property name="font">
+                  <font>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>8</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QLabel" name="label_2">
+                 <property name="font">
+                  <font>
+                   <pointsize>10</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Number</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QLabel" name="label_11">
+                 <property name="font">
+                  <font>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>1</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="11" column="0">
+                <widget class="QLabel" name="label_20">
+                 <property name="font">
+                  <font>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>10</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_10">
+                 <property name="font">
+                  <font>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>0</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="10" column="0">
+                <widget class="QLabel" name="label_19">
+                 <property name="font">
+                  <font>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>9</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QLabel" name="label_6">
+                 <property name="font">
+                  <font>
+                   <pointsize>10</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Name</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="2">
+                <widget class="QLabel" name="label_7">
+                 <property name="font">
+                  <font>
+                   <pointsize>10</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Description</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="3">
+                <widget class="QLabel" name="label_8">
+                 <property name="font">
+                  <font>
+                   <pointsize>10</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Value</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="4">
+                <widget class="QLabel" name="label_9">
+                 <property name="font">
+                  <font>
+                   <pointsize>10</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Unit</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="7" column="0">
+                <widget class="QLabel" name="label_16">
+                 <property name="font">
+                  <font>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>6</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="8" column="0">
+                <widget class="QLabel" name="label_17">
+                 <property name="font">
+                  <font>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>7</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="12" column="0">
+                <widget class="QLabel" name="label_21">
+                 <property name="font">
+                  <font>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>11</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="6" column="0">
+                <widget class="QLabel" name="label_15">
+                 <property name="font">
+                  <font>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>5</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="0">
+                <widget class="QLabel" name="label_14">
+                 <property name="font">
+                  <font>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>4</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="0">
+                <widget class="QLabel" name="label_13">
+                 <property name="font">
+                  <font>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>3</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <widget class="QLabel" name="label_12">
+                 <property name="font">
+                  <font>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>2</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="13" column="0">
+                <widget class="QLabel" name="label_22">
+                 <property name="font">
+                  <font>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>12</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="3">
+                <widget class="QSpinBox" name="spinBox_1">
+                 <property name="maximum">
+                  <number>99999999</number>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="3">
+                <widget class="QSpinBox" name="spinBox_2">
+                 <property name="maximum">
+                  <number>99999999</number>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="3">
+                <widget class="QSpinBox" name="spinBox_3">
+                 <property name="maximum">
+                  <number>99999999</number>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="3">
+                <widget class="QSpinBox" name="spinBox_4">
+                 <property name="maximum">
+                  <number>99999999</number>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="3">
+                <widget class="QSpinBox" name="spinBox_5">
+                 <property name="maximum">
+                  <number>99999999</number>
+                 </property>
+                </widget>
+               </item>
+               <item row="6" column="3">
+                <widget class="QSpinBox" name="spinBox_6">
+                 <property name="maximum">
+                  <number>99999999</number>
+                 </property>
+                </widget>
+               </item>
+               <item row="7" column="3">
+                <widget class="QSpinBox" name="spinBox_7">
+                 <property name="maximum">
+                  <number>99999999</number>
+                 </property>
+                </widget>
+               </item>
+               <item row="8" column="3">
+                <widget class="QSpinBox" name="spinBox_8">
+                 <property name="maximum">
+                  <number>99999999</number>
+                 </property>
+                </widget>
+               </item>
+               <item row="9" column="3">
+                <widget class="QSpinBox" name="spinBox_9">
+                 <property name="maximum">
+                  <number>99999999</number>
+                 </property>
+                </widget>
+               </item>
+               <item row="10" column="3">
+                <widget class="QSpinBox" name="spinBox_10">
+                 <property name="maximum">
+                  <number>99999999</number>
+                 </property>
+                </widget>
+               </item>
+               <item row="11" column="3">
+                <widget class="QSpinBox" name="spinBox_11">
+                 <property name="maximum">
+                  <number>99999999</number>
+                 </property>
+                </widget>
+               </item>
+               <item row="12" column="3">
+                <widget class="QSpinBox" name="spinBox_12">
+                 <property name="maximum">
+                  <number>99999999</number>
+                 </property>
+                </widget>
+               </item>
+               <item row="13" column="3">
+                <widget class="QSpinBox" name="spinBox_13">
+                 <property name="maximum">
+                  <number>99999999</number>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="QLabel" name="label_23">
+                 <property name="text">
+                  <string>Air Foam Dens</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="1">
+                <widget class="QLabel" name="label_24">
+                 <property name="text">
+                  <string>Foam temperature</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="1">
+                <widget class="QLabel" name="label_25">
+                 <property name="text">
+                  <string>DisCycThe</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="1">
+                <widget class="QLabel" name="label_26">
+                 <property name="text">
+                  <string>Pump speed(%)</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="1">
+                <widget class="QLabel" name="label_27">
+                 <property name="text">
+                  <string>MF Drain time</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="6" column="1">
+                <widget class="QLabel" name="label_28">
+                 <property name="text">
+                  <string>Post pump speed</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="7" column="1">
+                <widget class="QLabel" name="label_29">
+                 <property name="text">
+                  <string>post pump time</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="8" column="1">
+                <widget class="QLabel" name="label_30">
+                 <property name="text">
+                  <string>Rinse pause time</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="9" column="1">
+                <widget class="QLabel" name="label_31">
+                 <property name="text">
+                  <string>Rinse pump volume</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="10" column="1">
+                <widget class="QLabel" name="label_32">
+                 <property name="text">
+                  <string>Rinse pump temperature</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="11" column="1">
+                <widget class="QLabel" name="label_33">
+                 <property name="text">
+                  <string>Rinse pump speed</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="12" column="1">
+                <widget class="QLabel" name="label_34">
+                 <property name="text">
+                  <string>Rinse air time</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="13" column="1">
+                <widget class="QLabel" name="label_35">
+                 <property name="text">
+                  <string>Rinse air pump speed</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="4">
+                <widget class="QLabel" name="label_36">
+                 <property name="text">
+                  <string>%</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="4">
+                <widget class="QLabel" name="label_37">
+                 <property name="text">
+                  <string>degree</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="4">
+                <widget class="QLabel" name="label_38">
+                 <property name="text">
+                  <string>%</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="4">
+                <widget class="QLabel" name="label_39">
+                 <property name="text">
+                  <string>%</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="4">
+                <widget class="QLabel" name="label_40">
+                 <property name="text">
+                  <string>msec</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="6" column="4">
+                <widget class="QLabel" name="label_41">
+                 <property name="text">
+                  <string>%</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="7" column="4">
+                <widget class="QLabel" name="label_42">
+                 <property name="text">
+                  <string>msec</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="8" column="4">
+                <widget class="QLabel" name="label_43">
+                 <property name="text">
+                  <string>msec</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="9" column="4">
+                <widget class="QLabel" name="label_44">
+                 <property name="text">
+                  <string>ml</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="10" column="4">
+                <widget class="QLabel" name="label_45">
+                 <property name="text">
+                  <string>degree</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="11" column="4">
+                <widget class="QLabel" name="label_46">
+                 <property name="text">
+                  <string>%</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="12" column="4">
+                <widget class="QLabel" name="label_47">
+                 <property name="text">
+                  <string>msec</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="13" column="4">
+                <widget class="QLabel" name="label_48">
+                 <property name="text">
+                  <string>%</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="2">
+                <widget class="QLabel" name="label_49">
+                 <property name="text">
+                  <string>Foam density/Air valve ratio when milk dispense</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="2">
+                <widget class="QLabel" name="label_50">
+                 <property name="text">
+                  <string>Temperature of the recipe</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="2">
+                <widget class="QLabel" name="label_51">
+                 <property name="text">
+                  <string>Dispense cycle threshold</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="2">
+                <widget class="QLabel" name="label_52">
+                 <property name="text">
+                  <string>Milk dispense pump speed</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="2">
+                <widget class="QLabel" name="label_53">
+                 <property name="text">
+                  <string>Milk drain time</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="6" column="2">
+                <widget class="QLabel" name="label_54">
+                 <property name="text">
+                  <string>Milk post pump speed</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="7" column="2">
+                <widget class="QLabel" name="label_55">
+                 <property name="text">
+                  <string>Milk post pump time</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="8" column="2">
+                <widget class="QLabel" name="label_56">
+                 <property name="text">
+                  <string>Rinse pause time</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="9" column="2">
+                <widget class="QLabel" name="label_57">
+                 <property name="text">
+                  <string>Rinse  water pump volume</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="10" column="2">
+                <widget class="QLabel" name="label_58">
+                 <property name="text">
+                  <string>Rinse water pump temperature</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="11" column="2">
+                <widget class="QLabel" name="label_59">
+                 <property name="text">
+                  <string>Rinse water pump speed</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="12" column="2">
+                <widget class="QLabel" name="label_60">
+                 <property name="text">
+                  <string>Rinse air time</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="13" column="2">
+                <widget class="QLabel" name="label_61">
+                 <property name="text">
+                  <string>Rinse air pump speed</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_load">
+       <property name="text">
+        <string>Load default Setting</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

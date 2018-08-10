@@ -1,0 +1,17 @@
+E:\project\EVO-Platform\CREM.EVO\EVO.TOOL.MAKEPIC\bin\Release\EVO.TOOL.MAKEPIC.exe.config
+E:\project\EVO-Platform\CREM.EVO\EVO.TOOL.MAKEPIC\bin\Release\EVO.TOOL.MAKEPIC.exe
+E:\project\EVO-Platform\CREM.EVO\EVO.TOOL.MAKEPIC\bin\Release\EVO.TOOL.MAKEPIC.pdb
+E:\project\EVO-Platform\CREM.EVO\EVO.TOOL.MAKEPIC\obj\Release\Items.baml
+E:\project\EVO-Platform\CREM.EVO\EVO.TOOL.MAKEPIC\obj\Release\MainWindow.baml
+E:\project\EVO-Platform\CREM.EVO\EVO.TOOL.MAKEPIC\obj\Release\Items.g.cs
+E:\project\EVO-Platform\CREM.EVO\EVO.TOOL.MAKEPIC\obj\Release\MainWindow.g.cs
+E:\project\EVO-Platform\CREM.EVO\EVO.TOOL.MAKEPIC\obj\Release\App.g.cs
+E:\project\EVO-Platform\CREM.EVO\EVO.TOOL.MAKEPIC\obj\Release\EVO.TOOL.MAKEPIC_MarkupCompile.cache
+E:\project\EVO-Platform\CREM.EVO\EVO.TOOL.MAKEPIC\obj\Release\EVO.TOOL.MAKEPIC.g.resources
+E:\project\EVO-Platform\CREM.EVO\EVO.TOOL.MAKEPIC\obj\Release\EVO.TOOL.MAKEPIC.Properties.Resources.resources
+E:\project\EVO-Platform\CREM.EVO\EVO.TOOL.MAKEPIC\obj\Release\EVO.TOOL.MAKEPIC.csproj.GenerateResource.Cache
+E:\project\EVO-Platform\CREM.EVO\EVO.TOOL.MAKEPIC\obj\Release\EVO.TOOL.MAKEPIC.exe
+E:\project\EVO-Platform\CREM.EVO\EVO.TOOL.MAKEPIC\obj\Release\EVO.TOOL.MAKEPIC.pdb
+E:\project\EVO-Platform\public\EVO.TOOL.MAKEPIC.exe.config
+E:\project\EVO-Platform\public\EVO.TOOL.MAKEPIC.exe
+E:\project\EVO-Platform\public\EVO.TOOL.MAKEPIC.pdb

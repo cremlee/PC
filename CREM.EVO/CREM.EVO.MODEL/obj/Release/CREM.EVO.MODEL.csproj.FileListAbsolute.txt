@@ -1,0 +1,9 @@
+E:\project\EVO-Platform\CREM.EVO\CREM.EVO.MODEL\bin\Release\CREM.EVO.MODEL.dll
+E:\project\EVO-Platform\CREM.EVO\CREM.EVO.MODEL\bin\Release\CREM.EVO.MODEL.pdb
+E:\project\EVO-Platform\CREM.EVO\CREM.EVO.MODEL\obj\Release\CREM.EVO.MODEL.dll
+E:\project\EVO-Platform\CREM.EVO\CREM.EVO.MODEL\obj\Release\CREM.EVO.MODEL.pdb
+E:\project\EVO-Platform\public\CREM.EVO.MODEL.dll
+E:\project\EVO-Platform\public\CREM.EVO.MODEL.pdb
+E:\project\EVO-Platform\ForFactory\CREM.EVO.MODEL.dll
+E:\project\EVO-Platform\ForFactory\CREM.EVO.MODEL.pdb
+E:\project\EVO-Platform\CREM.EVO\CREM.EVO.MODEL\obj\Release\CREM.EVO.MODEL.csprojResolveAssemblyReference.cache

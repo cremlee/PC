@@ -1,0 +1,15 @@
+E:\project\EVO-Platform\ForFactory\EVO.TOOL.FactoryTest.exe.config
+E:\project\EVO-Platform\ForFactory\EVO.TOOL.FactoryTest.exe
+E:\project\EVO-Platform\ForFactory\EVO.TOOL.FactoryTest.pdb
+E:\project\EVO-Platform\CREM.EVO\EVO.TOOL.FactoryTest\obj\Release\EVO.TOOL.FactoryTest.csprojResolveAssemblyReference.cache
+E:\project\EVO-Platform\CREM.EVO\EVO.TOOL.FactoryTest\obj\Release\MainWindow.g.cs
+E:\project\EVO-Platform\CREM.EVO\EVO.TOOL.FactoryTest\obj\Release\App.g.cs
+E:\project\EVO-Platform\CREM.EVO\EVO.TOOL.FactoryTest\obj\Release\EVO.TOOL.FactoryTest_MarkupCompile.cache
+E:\project\EVO-Platform\CREM.EVO\EVO.TOOL.FactoryTest\obj\Release\EVO.TOOL.FactoryTest_MarkupCompile.lref
+E:\project\EVO-Platform\CREM.EVO\EVO.TOOL.FactoryTest\obj\Release\App.baml
+E:\project\EVO-Platform\CREM.EVO\EVO.TOOL.FactoryTest\obj\Release\MainWindow.baml
+E:\project\EVO-Platform\CREM.EVO\EVO.TOOL.FactoryTest\obj\Release\EVO.TOOL.FactoryTest.g.resources
+E:\project\EVO-Platform\CREM.EVO\EVO.TOOL.FactoryTest\obj\Release\EVO.TOOL.FactoryTest.Properties.Resources.resources
+E:\project\EVO-Platform\CREM.EVO\EVO.TOOL.FactoryTest\obj\Release\EVO.TOOL.FactoryTest.csproj.GenerateResource.Cache
+E:\project\EVO-Platform\CREM.EVO\EVO.TOOL.FactoryTest\obj\Release\EVO.TOOL.FactoryTest.exe
+E:\project\EVO-Platform\CREM.EVO\EVO.TOOL.FactoryTest\obj\Release\EVO.TOOL.FactoryTest.pdb

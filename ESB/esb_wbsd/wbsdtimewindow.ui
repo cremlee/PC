@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WBSDTimeWindow</class>
+ <widget class="QMainWindow" name="WBSDTimeWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Time &amp; Event</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>19</y>
+      <width>761</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2" stretch="1,1">
+     <property name="leftMargin">
+      <number>50</number>
+     </property>
+     <property name="rightMargin">
+      <number>50</number>
+     </property>
+     <item>
+      <layout class="QGridLayout" name="gridLayout">
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>Format time representation</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QComboBox" name="timeFormat"/>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="currentDate">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="currentTime">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QPushButton" name="setDate">
+         <property name="text">
+          <string>Set current date</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QPushButton" name="setTime">
+         <property name="text">
+          <string>Set current time</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="pbtn_skipclean">
+         <property name="text">
+          <string>Skip cleaning/flushing overdue</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="cleaningButton">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>Cleaning moment</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="ecoButton">
+         <property name="text">
+          <string>ECO moment</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pbtn_hpyhour">
+         <property name="text">
+          <string>Happy Hour setting</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="0" column="1">
+          <widget class="QComboBox" name="dtsEnable"/>
+         </item>
+         <item row="8" column="0">
+          <widget class="QLabel" name="dtsEndTimeLbl">
+           <property name="text">
+            <string>Daylight saving end - time (hour)</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_4">
+           <property name="text">
+            <string>Daylight saving</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QComboBox" name="dtsStartTime"/>
+         </item>
+         <item row="6" column="0">
+          <widget class="QLabel" name="dtsEndWeekLbl">
+           <property name="text">
+            <string>Daylight saving end - week</string>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="0">
+          <widget class="QLabel" name="dtsEndDayLbl">
+           <property name="text">
+            <string>Daylight saving end - day</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="1">
+          <widget class="QComboBox" name="dtsEndWeek"/>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLabel" name="dtsEndMonthLbl">
+           <property name="text">
+            <string>Daylight saving end - month</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="dtsStartDayLbl">
+           <property name="text">
+            <string>Daylight saving start - day</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="dtsStartWeekLbl">
+           <property name="text">
+            <string>Daylight saving start - week</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="dtsStartMonthLbl">
+           <property name="text">
+            <string>Daylight saving start - month</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="QComboBox" name="dtsEndMonth"/>
+         </item>
+         <item row="2" column="1">
+          <widget class="QComboBox" name="dtsStartWeek"/>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="dtsStartTimeLbl">
+           <property name="text">
+            <string>Daylight saving start - time (hour)</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QComboBox" name="dtsStartDay"/>
+         </item>
+         <item row="7" column="1">
+          <widget class="QComboBox" name="dtsEndDay"/>
+         </item>
+         <item row="8" column="1">
+          <widget class="QComboBox" name="dtsEndTime"/>
+         </item>
+         <item row="1" column="1">
+          <widget class="QComboBox" name="dtsStartMonth"/>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>setDate</tabstop>
+  <tabstop>setTime</tabstop>
+  <tabstop>timeFormat</tabstop>
+  <tabstop>ecoButton</tabstop>
+  <tabstop>dtsEnable</tabstop>
+  <tabstop>dtsStartMonth</tabstop>
+  <tabstop>dtsStartWeek</tabstop>
+  <tabstop>dtsStartDay</tabstop>
+  <tabstop>dtsStartTime</tabstop>
+  <tabstop>dtsEndMonth</tabstop>
+  <tabstop>dtsEndWeek</tabstop>
+  <tabstop>dtsEndDay</tabstop>
+  <tabstop>dtsEndTime</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
