@@ -1,0 +1,14 @@
+G:\VS_QT\LanguageTools\LanguageTools\bin\Debug\LanguageTools.exe.config
+G:\VS_QT\LanguageTools\LanguageTools\bin\Debug\LanguageTools.exe
+G:\VS_QT\LanguageTools\LanguageTools\bin\Debug\LanguageTools.pdb
+G:\VS_QT\LanguageTools\LanguageTools\obj\Debug\LanguageTools.csprojResolveAssemblyReference.cache
+G:\VS_QT\LanguageTools\LanguageTools\obj\Debug\MainWindow.g.cs
+G:\VS_QT\LanguageTools\LanguageTools\obj\Debug\App.g.cs
+G:\VS_QT\LanguageTools\LanguageTools\obj\Debug\LanguageTools_MarkupCompile.cache
+G:\VS_QT\LanguageTools\LanguageTools\obj\Debug\LanguageTools_MarkupCompile.lref
+G:\VS_QT\LanguageTools\LanguageTools\obj\Debug\MainWindow.baml
+G:\VS_QT\LanguageTools\LanguageTools\obj\Debug\LanguageTools.g.resources
+G:\VS_QT\LanguageTools\LanguageTools\obj\Debug\LanguageTools.Properties.Resources.resources
+G:\VS_QT\LanguageTools\LanguageTools\obj\Debug\LanguageTools.csproj.GenerateResource.Cache
+G:\VS_QT\LanguageTools\LanguageTools\obj\Debug\LanguageTools.exe
+G:\VS_QT\LanguageTools\LanguageTools\obj\Debug\LanguageTools.pdb

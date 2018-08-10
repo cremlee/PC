@@ -1,0 +1,25 @@
+﻿<Window x:Class="MachineCreater.propertywin.win_peripheral_select"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MachineCreater.propertywin"
+        mc:Ignorable="d"
+        Title="win_peripheral_select" Height="200" Width="200" WindowStyle="None">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="peripheral selections" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+        <Button Grid.Row="1" Width="112" Margin="3" CommandParameter="001a" Click="Button_Click">Door sensor</Button>
+        <Button Grid.Row="2" Width="112" Margin="3" CommandParameter="0018" Click="Button_Click">Drip tray Sensor</Button>
+        <Button Grid.Row="5" Width="112" Margin="3" CommandParameter="000c" Click="Button_Click">LED</Button>
+        <Button Grid.Row="3" Width="112" Margin="3" CommandParameter="0008" Click="Button_Click">Cup sensor</Button>
+        <Button Grid.Row="4" Width="112" Margin="3" CommandParameter="0019" Click="Button_Click">Waster bin sensor</Button>
+    </Grid>
+</Window>

@@ -1,0 +1,84 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MachineCreater.propertywin"
+        xmlns:model="clr-namespace:MachineCreater.model" x:Class="MachineCreater.propertywin.win_hopper"
+        mc:Ignorable="d"
+        Title="Bean Hopper" Height="300" Width="300" WindowStyle="None">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFF9F6F6" Offset="0"/>
+                    <GradientStop Color="#FFF7F3F3" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1.2*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.5*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock VerticalAlignment="Center" ><Run Text="Device ID:"/></TextBlock>
+            <TextBox Grid.Column="1" VerticalAlignment="Center" IsEnabled="False" Text="001501" />
+            <TextBox x:Name="id_position" Grid.Column="2" VerticalAlignment="Center" IsEnabled="False" Text="{Binding Position_id, StringFormat='X2'}"  />
+        </Grid>
+        <Grid Grid.Row="1">
+            <StackPanel>
+                <TextBlock FontStyle="Italic" Background="#FFD4CECE" ><Run Text="Common Properties"/></TextBlock>
+                <GridSplitter Focusable="False" Height="1" Background="#FFA3B6BD"
+					VerticalAlignment="Stretch" HorizontalAlignment="Stretch" />
+                <Grid Height="30">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center"><Run Text="Power type"/></TextBlock>
+                    <ComboBox x:Name="cb_type" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="100" SelectionChanged="ComboBox_SelectionChanged" >
+                        <ComboBoxItem Content="Bean 1" HorizontalAlignment="Left" Width="98" Tag="0x81"/>
+                        <ComboBoxItem Content="Bean 2" HorizontalAlignment="Left" Width="98" Tag="0x82"/>
+                    </ComboBox>
+                </Grid>
+                <Grid Height="25">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center"><Run Text="Max Capability"/></TextBlock>
+                    <ComboBox Name="cb_max_cap" Grid.Column="1" Width="100" Margin="0,2" SelectionChanged="cb_max_cap_SelectionChanged">
+                        <ComboBoxItem Content="1.0 L" HorizontalAlignment="Left" Width="98" Tag="10"/>
+                        <ComboBoxItem Content="1.5 L" HorizontalAlignment="Left" Width="98" Tag="15"/>
+                        <ComboBoxItem Content="2.0 L" HorizontalAlignment="Left" Width="98" Tag="20"/>
+                        <ComboBoxItem Content="2.5 L" HorizontalAlignment="Left" Width="98" Tag="25"/>
+                    </ComboBox>
+                </Grid>
+                <TextBlock FontStyle="Italic" Background="#FFD4CECE" ><Run Text="maintenace Properties"/></TextBlock>
+                <GridSplitter Focusable="False" Height="1" Background="#FFA3B6BD"
+					VerticalAlignment="Stretch" HorizontalAlignment="Stretch" />
+                <Grid Height="30">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center"   Width="100" ><Run Text="motor life cycle"/></TextBlock>
+                    <TextBox x:Name="tb_life" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="100"  Text="{Binding  Motor_life}"></TextBox>
+                </Grid>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Button Margin="10,0" Content="Cancel" Visibility="Hidden"/>
+            <Button x:Name="btn_save" Margin="10,0" Grid.Column="1" Content="Save"/>
+        </Grid>
+    </Grid>
+</Window>

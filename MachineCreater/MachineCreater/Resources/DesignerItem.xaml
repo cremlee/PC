@@ -1,0 +1,256 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib"
+                    xmlns:s="clr-namespace:MachineCreater"
+                    xmlns:c="clr-namespace:MachineCreater.Controls">
+
+    <ContextMenu x:Key="DesignerItemContextMenu">
+        <MenuItem Header="Delete" Command="{x:Static ApplicationCommands.Delete}">
+            <MenuItem.Icon>
+                <Image Source="Images/Delete.png" Width="16"/>
+            </MenuItem.Icon>
+        </MenuItem>
+        <Separator/>
+    </ContextMenu>
+
+
+
+
+    <!-- Connector Style for input-->
+    <Style TargetType="{x:Type s:Connector}" x:Key="Connector_io_p">
+        <Setter Property="Width" Value="8"/>
+        <Setter Property="Height" Value="8"/>
+        <Setter Property="Cursor" Value="Cross"/>
+        <Setter Property="SnapsToDevicePixels" Value="true"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type s:Connector}">
+                    <Grid>
+                        <!-- transparent extra space makes connector easier to hit -->
+                        <Rectangle Fill="Transparent" Margin="-2"/>
+                        <Rectangle Fill="Gray" StrokeThickness="1" Stroke="#AA000080"/>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!-- Connector Style for input-->
+    <Style TargetType="{x:Type s:Connector}" x:Key="Connector_i">
+        <Setter Property="Width" Value="8"/>
+        <Setter Property="Height" Value="8"/>
+        <Setter Property="Cursor" Value="Cross"/>
+        <Setter Property="SnapsToDevicePixels" Value="true"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type s:Connector}">
+                    <Grid>
+                        <!-- transparent extra space makes connector easier to hit -->
+                        <Rectangle Fill="Transparent" Margin="-2"/>
+                        <Rectangle Fill="Green" StrokeThickness="1" Stroke="#AA000080"/>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!-- Connector Style for out put -->
+    <Style TargetType="{x:Type s:Connector}" x:Key="Connector_o">
+        <Setter Property="Width" Value="8"/>
+        <Setter Property="Height" Value="8"/>
+        <Setter Property="Cursor" Value="Cross"/>
+        <Setter Property="SnapsToDevicePixels" Value="true"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type s:Connector}">
+                    <Grid>
+                        <!-- transparent extra space makes connector easier to hit -->
+                        <Rectangle Fill="Transparent" Margin="-2"/>
+                        <Rectangle Fill="Red" StrokeThickness="1" Stroke="#AA000080"/>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!-- Connector Style for water out put -->
+    <Style TargetType="{x:Type s:Connector}" x:Key="Connector_oi_w">
+        <Setter Property="Width" Value="8"/>
+        <Setter Property="Height" Value="8"/>
+        <Setter Property="Cursor" Value="Cross"/>
+        <Setter Property="SnapsToDevicePixels" Value="true"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type s:Connector}">
+                    <Grid>
+                        <!-- transparent extra space makes connector easier to hit -->
+                        <Rectangle Fill="Transparent" Margin="-2"/>
+                        <Rectangle Fill="Blue" StrokeThickness="1" Stroke="#AA000080"/>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!-- ConnectorDecoratorTemplate Default Template -->
+    <ControlTemplate x:Key="ConnectorDecoratorTemplate" TargetType="{x:Type Control}">
+        <Grid Margin="-5">
+            <!--<s:Connector x:Name="Left" Orientation="Left" VerticalAlignment="Center" HorizontalAlignment="Left"/>-->
+           </Grid>
+    </ControlTemplate>
+    
+    <!-- ConnectorDecoratorTemplate Default Template -->
+    <ControlTemplate x:Key="ConnectorDecoratorTemplate_brewer" TargetType="{x:Type Control}">
+        <Grid Margin="-5">
+            <!--<s:Connector x:Name="Left" Orientation="Left" VerticalAlignment="Center" HorizontalAlignment="Left"/>-->
+            <s:Connector Type="INPUT" x:Name="Left" Orientation="Right" VerticalAlignment="Center" HorizontalAlignment="Right" Style="{StaticResource Connector_oi_w}"/>
+            <s:Connector Type="INPUT" x:Name="Top" Orientation="Top" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="20,0,0,0"  Style="{StaticResource Connector_io_p}"/>
+            <s:Connector Type="INPUT" x:Name="Top1" Orientation="Top" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,0,20,0" Style="{StaticResource Connector_io_p}"/>
+            <s:Connector Type="OUTPUT" x:Name="Bottom" Orientation="Bottom" VerticalAlignment="Bottom" HorizontalAlignment="Center" Background="Red" Style="{StaticResource Connector_o}"/>
+        </Grid>
+    </ControlTemplate>
+
+    <!-- ConnectorDecoratorTemplate Default Template -->
+    <ControlTemplate x:Key="ConnectorDecoratorTemplate_grinder" TargetType="{x:Type Control}">
+        <Grid Margin="-5">
+            <!--<s:Connector x:Name="Left" Orientation="Left" VerticalAlignment="Center" HorizontalAlignment="Left"/>-->
+            <s:Connector Type="INPUT" x:Name="Top" Orientation="Top" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="20,0,0,0"  Style="{StaticResource Connector_io_p}"/>
+            <s:Connector Type="INPUT" x:Name="Top1" Orientation="Top" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,0,20,0" Style="{StaticResource Connector_io_p}"/>
+            <s:Connector Type="OUTPUT" x:Name="Bottom" Orientation="Bottom" VerticalAlignment="Bottom" HorizontalAlignment="Center" Style="{StaticResource Connector_io_p}"/>
+        </Grid>
+    </ControlTemplate>
+
+    <ControlTemplate x:Key="ConnectorDecoratorTemplate_can" TargetType="{x:Type Control}">
+        <Grid Margin="-5">
+            <!--<s:Connector x:Name="Left" Orientation="Left" VerticalAlignment="Center" HorizontalAlignment="Left"/>-->
+            <s:Connector Type="OUTPUT" x:Name="Top" Orientation="Bottom" VerticalAlignment="Bottom" HorizontalAlignment="Center" Style="{StaticResource Connector_io_p}"/>
+
+        </Grid>
+    </ControlTemplate>
+
+    <ControlTemplate x:Key="ConnectorDecoratorTemplate_valve" TargetType="{x:Type Control}">
+        <Grid Margin="-5">
+            <!--<s:Connector x:Name="Left" Orientation="Left" VerticalAlignment="Center" HorizontalAlignment="Left"/>-->
+            <s:Connector Type="INPUT" x:Name="Left" Orientation="Right" VerticalAlignment="Center" HorizontalAlignment="Right" Style="{StaticResource Connector_i}"/>
+            <s:Connector Type="OUTPUT" x:Name="Bottom" Orientation="Bottom" VerticalAlignment="Bottom" HorizontalAlignment ="Left" Background="Red" Style="{StaticResource Connector_oi_w}" Margin="20,0"/>
+            <s:Connector Type="OUTPUT" x:Name="Bottom1" Orientation="Bottom" VerticalAlignment="Bottom" HorizontalAlignment="Center" Background="Red" Style="{StaticResource Connector_oi_w}"/>
+            <s:Connector Type="OUTPUT" x:Name="Bottom2" Orientation="Bottom" VerticalAlignment="Bottom" HorizontalAlignment="Right" Background="Red" Style="{StaticResource Connector_oi_w}" Margin="0,0,20,0"/>
+        </Grid>
+    </ControlTemplate>
+
+
+    <ControlTemplate x:Key="ConnectorDecoratorTemplate_boiler" TargetType="{x:Type Control}">
+        <Grid Margin="-5">
+            <!--<s:Connector x:Name="Left" Orientation="Left" VerticalAlignment="Center" HorizontalAlignment="Left"/>-->
+            <s:Connector Type="OUTPUT" x:Name="Top" Orientation="Bottom" VerticalAlignment="Bottom" HorizontalAlignment="Center" Style="{StaticResource Connector_i}"/>
+            
+        </Grid>
+    </ControlTemplate>
+
+    <ControlTemplate x:Key="ConnectorDecoratorTemplate_pump" TargetType="{x:Type Control}">
+        <Grid Margin="-5">
+            <!--<s:Connector x:Name="Left" Orientation="Left" VerticalAlignment="Center" HorizontalAlignment="Left"/>-->
+            <s:Connector Type="INPUT" x:Name="Left" Orientation="Right" VerticalAlignment="Center" HorizontalAlignment="Right" Style="{StaticResource Connector_i}"/>
+            <s:Connector Type="OUTPUT" x:Name="Top" Orientation="Bottom" VerticalAlignment="Bottom" HorizontalAlignment="Center" Style="{StaticResource Connector_i}"/>
+
+        </Grid>
+    </ControlTemplate>
+
+    <ControlTemplate x:Key="ConnectorDecoratorTemplate_end" TargetType="{x:Type Control}">
+        <Grid Margin="-5">
+            <!--<s:Connector x:Name="Left" Orientation="Left" VerticalAlignment="Center" HorizontalAlignment="Left"/>-->
+            <s:Connector Type="INPUT" x:Name="Left" Orientation="Top" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="50,0,0,0" Style="{StaticResource Connector_o}"/>
+            <s:Connector Type="INPUT" x:Name="Center" Orientation="Top" VerticalAlignment="Top" HorizontalAlignment="Center"  Style="{StaticResource Connector_o}"/>
+            <s:Connector Type="INPUT" x:Name="Right" Orientation="Top" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,0,50,0" Style="{StaticResource Connector_o}"/>
+
+        </Grid>
+    </ControlTemplate>
+
+    <!-- ResizeDecorator Default Template -->
+    <ControlTemplate x:Key="ResizeDecoratorTemplate" TargetType="{x:Type Control}">
+        <Grid Opacity="0.7" SnapsToDevicePixels="true">
+            <c:ResizeThumb Height="3" Cursor="SizeNS" Margin="0 -4 0 0"
+                     VerticalAlignment="Top" HorizontalAlignment="Stretch"/>
+            <c:ResizeThumb Width="3" Cursor="SizeWE" Margin="-4 0 0 0"
+                     VerticalAlignment="Stretch" HorizontalAlignment="Left"/>
+            <c:ResizeThumb Width="3" Cursor="SizeWE" Margin="0 0 -4 0"
+                     VerticalAlignment="Stretch" HorizontalAlignment="Right"/>
+            <c:ResizeThumb Height="3" Cursor="SizeNS" Margin="0 0 0 -4"
+                     VerticalAlignment="Bottom" HorizontalAlignment="Stretch"/>
+            <c:ResizeThumb Width="7" Height="7" Cursor="SizeNWSE" Margin="-6 -6 0 0"
+                     VerticalAlignment="Top" HorizontalAlignment="Left"/>
+            <c:ResizeThumb Width="7" Height="7" Cursor="SizeNESW" Margin="0 -6 -6 0"
+                     VerticalAlignment="Top" HorizontalAlignment="Right"/>
+            <c:ResizeThumb Width="7" Height="7" Cursor="SizeNESW" Margin="-6 0 0 -6"
+                     VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
+            <c:ResizeThumb Width="7" Height="7" Cursor="SizeNWSE" Margin="0 0 -6 -6"
+                     VerticalAlignment="Bottom" HorizontalAlignment="Right"/>
+        </Grid>
+    </ControlTemplate>
+
+    <!-- DragThumb Default Template -->
+    <Style TargetType="{x:Type c:DragThumb}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type c:DragThumb}">
+                    <Rectangle Fill="Transparent"/>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!-- DesignerItem Style -->
+    <Style TargetType="{x:Type s:DesignerItem}">
+        <Setter Property="MinWidth" Value="10"/>
+        <Setter Property="MinHeight" Value="10"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>        
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type s:DesignerItem}">
+                    <Grid DataContext="{Binding RelativeSource={RelativeSource TemplatedParent}}"
+                          ContextMenu="{StaticResource DesignerItemContextMenu}">
+                        <!-- PART_DragThumb -->
+                        <c:DragThumb x:Name="PART_DragThumb" 
+                                     Cursor="SizeAll"/>
+                        <!-- PART_ResizeDecorator -->
+                        <Control x:Name="PART_ResizeDecorator" 
+                                 Visibility="Collapsed"
+                                 Template="{StaticResource ResizeDecoratorTemplate}"/>
+                        <!-- PART_ContentPresenter -->
+                        <ContentPresenter x:Name="PART_ContentPresenter"
+                                          HorizontalAlignment="Stretch"
+                                          VerticalAlignment="Stretch"
+                                          Content="{TemplateBinding ContentControl.Content}"
+                                          Margin="{TemplateBinding ContentControl.Padding}"/>
+                        <!-- PART_ConnectorDecorator -->
+                        <Control x:Name="PART_ConnectorDecorator"
+                                 Visibility="Hidden"
+                                 />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <DataTrigger Value="True" Binding="{Binding RelativeSource={RelativeSource Self},Path=IsGroup}">
+                            <Setter TargetName="PART_DragThumb" Property="Visibility" Value="Collapsed"/>
+                        </DataTrigger>
+                        <MultiDataTrigger>
+                            <MultiDataTrigger.Conditions>
+                                <Condition Value="True" Binding="{Binding RelativeSource={RelativeSource Self},Path=IsSelected}"/>
+                                <Condition Value="{x:Static sys:Guid.Empty}" Binding="{Binding RelativeSource={RelativeSource Self},Path=ParentID}"/>
+                            </MultiDataTrigger.Conditions>
+                            <Setter TargetName="PART_ResizeDecorator" Property="Visibility" Value="Visible"/>
+                        </MultiDataTrigger>
+                        <Trigger Property="IsMouseOver" Value="true">
+                            <Setter TargetName="PART_ConnectorDecorator" Property="Visibility" Value="Visible"/>
+                        </Trigger>
+                        <DataTrigger Value="True" Binding="{Binding RelativeSource={RelativeSource Self},Path=IsDragConnectionOver}">
+                            <Setter TargetName="PART_ConnectorDecorator" Property="Visibility" Value="Visible"/>
+                        </DataTrigger>
+                        <DataTrigger Value="True" Binding="{Binding RelativeSource={RelativeSource Self},Path=IsGroup}">
+                            <Setter TargetName="PART_ConnectorDecorator" Property="Visibility" Value="Hidden"/>
+                        </DataTrigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+</ResourceDictionary>

@@ -1,0 +1,227 @@
+﻿<Window x:Class="MachineCreater.propertywin.win_gravity_boiler"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MachineCreater.propertywin"
+        mc:Ignorable="d"
+        Title="win_es_brewer" Height="350" Width="500">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFF9F6F6" Offset="0"/>
+                    <GradientStop Color="#FFF7F3F3" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1.2*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.5*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock VerticalAlignment="Center" ><Run Text="Device ID:"/></TextBlock>
+            <TextBox Grid.Column="1" VerticalAlignment="Center" IsEnabled="False" Text="000f02" />
+            <TextBox x:Name="id_position" Grid.Column="2" IsEnabled="False" VerticalAlignment="Center" Text="{Binding Position_id, StringFormat='X2'}"  />
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Margin="2,0">
+                <TextBlock FontStyle="Italic" Background="#FFD4CECE" ><Run Text="Common Properties"/></TextBlock>
+                <GridSplitter Focusable="False" Height="1" Background="#FFA3B6BD"
+					VerticalAlignment="Stretch" HorizontalAlignment="Stretch" />
+                <Grid Height="25">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center"><Run Text="Max Capability"/></TextBlock>
+                    <ComboBox Name="cb_max_cap" Grid.Column="1" Width="100" Margin="0,2" SelectionChanged="cb_max_cap_SelectionChanged">
+                        <ComboBoxItem Content="1.0 L" HorizontalAlignment="Left" Width="98" Tag="10"/>
+                        <ComboBoxItem Content="1.5 L" HorizontalAlignment="Left" Width="98" Tag="15"/>
+                        <ComboBoxItem Content="2.0 L" HorizontalAlignment="Left" Width="98" Tag="20"/>
+                        <ComboBoxItem Content="2.5 L" HorizontalAlignment="Left" Width="98" Tag="25"/>
+                    </ComboBox>
+                </Grid>
+                <Grid Height="25">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center"><Run Text="Inlet water type"/></TextBlock>
+                    <ComboBox Name="cb_water_type" Grid.Column="1" Width="100" Margin="0,2" SelectionChanged="cb_water_type_SelectionChanged">
+                        <ComboBoxItem Content="Normal" HorizontalAlignment="Left" Width="98" Tag="0"/>
+                        <ComboBoxItem Content="Pure" HorizontalAlignment="Left" Width="98" Tag="1"/>
+                    </ComboBox>
+                </Grid>
+                <TextBlock FontStyle="Italic" Background="#FFD4CECE" ><Run Text="maintenace Properties"/></TextBlock>
+                <GridSplitter Focusable="False" Height="1" Background="#FFA3B6BD"
+					VerticalAlignment="Stretch" HorizontalAlignment="Stretch" />
+                <Grid Height="25">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center"   Width="100" ><Run Text="Life inlet valve"/></TextBlock>
+                    <TextBox  Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="100"  Text="{Binding  Life_intlet_valve}"></TextBox>
+                </Grid>
+                <Grid Height="25">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center"   Width="100" ><Run Text="Boiler clean cycle"/></TextBlock>
+                    <TextBox x:Name="tb_life_valve" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="100"  Text="{Binding  Cycle_boiler_clean}"></TextBox>
+                </Grid>
+                <GridSplitter Focusable="False" Height="1" Background="#FFA3B6BD"
+					VerticalAlignment="Stretch" HorizontalAlignment="Stretch" />
+                <TextBlock FontStyle="Italic" Background="#FFD4CECE" ><Run Text="Water Level Properties"/></TextBlock>
+                <GridSplitter Focusable="False" Height="1" Background="#FFA3B6BD"
+					VerticalAlignment="Stretch" HorizontalAlignment="Stretch" />
+                <StackPanel Name="sp_water">
+
+                    <Grid Height="25" Margin="0,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center"><Run Text="Sensor type"/></TextBlock>
+                        <ComboBox Name="cb_level_type" Grid.Column="1" Width="100" Margin="0,2" SelectionChanged="cb_level_type_SelectionChanged">
+                            <ComboBoxItem Content="single" HorizontalAlignment="Left" Width="98" Tag="1"/>
+                            <ComboBoxItem Content="double" HorizontalAlignment="Left" Width="98" Tag="2"/>
+                        </ComboBox>
+                    </Grid>
+                    <Grid Height="25" Margin="25,2" Name="gd_water1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2.3*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="0.5*"/>
+                            <ColumnDefinition Width="0.5*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock VerticalAlignment="Center" ><Run Text="High Sensor ID:"/></TextBlock>
+                        <TextBox Grid.Column="1" VerticalAlignment="Center" IsEnabled="False" Text="0007" />
+                        <TextBox Grid.Column="2" VerticalAlignment="Center" IsEnabled="False" Text="01"  />
+                        <TextBox Grid.Column="3" VerticalAlignment="Center" IsEnabled="False" Text="01"  />
+                    </Grid>
+                    <Grid Height="25" Margin="25,2" Name="gd_water2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2.3*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="0.5*"/>
+                            <ColumnDefinition Width="0.5*"/>
+                            
+                        </Grid.ColumnDefinitions>
+                        <TextBlock VerticalAlignment="Center" ><Run Text="Low sensor ID:"/></TextBlock>
+                        <TextBox Grid.Column="1" VerticalAlignment="Center" IsEnabled="False" Text="0007" />
+                        <TextBox Grid.Column="2" VerticalAlignment="Center" IsEnabled="False" Text="01"  />
+                        <TextBox Grid.Column="3" VerticalAlignment="Center" IsEnabled="False" Text="02"  />
+                    </Grid>
+                </StackPanel>
+                
+            </StackPanel>
+            <StackPanel Grid.Column="2" Margin="2,0" Name="sp_ntc">
+                <TextBlock FontStyle="Italic" Background="#FFD4CECE" ><Run Text="NTC Properties"/></TextBlock>
+                <GridSplitter Focusable="False" Height="1" Background="#FFA3B6BD"
+					VerticalAlignment="Stretch" HorizontalAlignment="Stretch" />
+                <Grid Height="25">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center"><Run Text="Sensor type"/></TextBlock>
+                    <ComboBox Name="cb_ntc_type" Grid.Column="1" Width="100" Margin="0,2" SelectionChanged="cb_ntc_type_SelectionChanged">
+                        <ComboBoxItem Content="single" HorizontalAlignment="Left" Width="98" Tag="1"/>
+                        <ComboBoxItem Content="double" HorizontalAlignment="Left" Width="98" Tag="2"/>
+                    </ComboBox>
+                </Grid>
+                <Grid Height="25" Margin="25,2" Name="gd_ntc_high">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2.3*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="0.5*"/>
+                        <ColumnDefinition Width="0.5*"/>
+                       
+                    </Grid.ColumnDefinitions>
+                    <TextBlock VerticalAlignment="Center" ><Run Text="High Sensor ID:"/></TextBlock>
+                    <TextBox Grid.Column="1" VerticalAlignment="Center" IsEnabled="False" Text="{Binding Group_id, StringFormat='X4'}" />
+                    <TextBox Grid.Column="2" VerticalAlignment="Center" IsEnabled="False" Text="{Binding Compent_type, StringFormat='X2'}"  />
+                    <TextBox Grid.Column="3" VerticalAlignment="Center" IsEnabled="False" Text="{Binding Position_id, StringFormat='X2'}"  />
+                </Grid>
+                <Grid Height="25" Margin="25,2" Name="gd_ntc_low">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2.3*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="0.5*"/>
+                        <ColumnDefinition Width="0.5*"/>
+
+                    </Grid.ColumnDefinitions>
+                    <TextBlock VerticalAlignment="Center" ><Run Text="Low Sensor ID:"/></TextBlock>
+                    <TextBox Grid.Column="1" VerticalAlignment="Center" IsEnabled="False" Text="{Binding Group_id, StringFormat='X4'}" />
+                    <TextBox Grid.Column="2" VerticalAlignment="Center" IsEnabled="False" Text="{Binding Compent_type, StringFormat='X2'}"  />
+                    <TextBox Grid.Column="3" VerticalAlignment="Center" IsEnabled="False" Text="{Binding Position_id, StringFormat='X2'}"  />
+                </Grid>
+                <Grid Height="25">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center"   Width="100" ><Run Text="Temperature offset"/></TextBlock>
+                    <TextBox Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="100"  Text="{Binding  Temperature_offset}"></TextBox>
+                </Grid>
+                <Grid Height="25">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center"   Width="120" ><Run Text="Temperature normal"/></TextBlock>
+                    <TextBox Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="100"  Text="{Binding  Temperature_normal}"></TextBox>
+                </Grid>
+                <Grid Height="25">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center"   Width="120" ><Run Text="Temperature warning"/></TextBlock>
+                    <TextBox Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="100"  Text="{Binding  Temperature_warning}"></TextBox>
+                </Grid>
+                <Grid Height="25">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center"   Width="100" ><Run Text="Temperature block"/></TextBlock>
+                    <TextBox Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="100"  Text="{Binding  Temperature_block}"></TextBox>
+                </Grid>
+                <Grid Height="25">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center"   Width="100" ><Run Text="Temperature eco"/></TextBlock>
+                    <TextBox Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="100"  Text="{Binding  Temperature_eco}"></TextBox>
+                </Grid>
+            </StackPanel>
+            <TextBlock Grid.Column="1" Width="1" Background="#FF999595"></TextBlock>
+        </Grid>
+        
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Button Margin="10,0" Content="Cancel" Visibility="Hidden"/>
+            <Button x:Name="btn_save" Margin="10,0" Grid.Column="1" Content="Save" Tag="GB"/>
+        </Grid>
+
+    </Grid>
+</Window>

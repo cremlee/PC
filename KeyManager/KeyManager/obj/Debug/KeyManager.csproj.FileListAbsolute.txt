@@ -1,0 +1,9 @@
+G:\VS_QT\KeyManager\KeyManager\bin\Debug\KeyManager.exe.config
+G:\VS_QT\KeyManager\KeyManager\bin\Debug\KeyManager.exe
+G:\VS_QT\KeyManager\KeyManager\bin\Debug\KeyManager.pdb
+G:\VS_QT\KeyManager\KeyManager\obj\Debug\KeyManager.csprojResolveAssemblyReference.cache
+G:\VS_QT\KeyManager\KeyManager\obj\Debug\KeyManager.Form1.resources
+G:\VS_QT\KeyManager\KeyManager\obj\Debug\KeyManager.Properties.Resources.resources
+G:\VS_QT\KeyManager\KeyManager\obj\Debug\KeyManager.csproj.GenerateResource.Cache
+G:\VS_QT\KeyManager\KeyManager\obj\Debug\KeyManager.exe
+G:\VS_QT\KeyManager\KeyManager\obj\Debug\KeyManager.pdb

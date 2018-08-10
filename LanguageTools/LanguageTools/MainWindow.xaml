@@ -1,0 +1,91 @@
+﻿<Window x:Class="LanguageTools.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LanguageTools"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="8*"/>
+        </Grid.RowDefinitions>
+        <Grid >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="53*"/>
+                <ColumnDefinition Width="53*"/>
+                <ColumnDefinition Width="100*"/>
+            </Grid.ColumnDefinitions>
+            <Button Name="btn_import" Grid.Column="0" Click="btn_import_Click">导入</Button>
+            <Button Name="btn_export" Grid.Column="1" Click="btn_export_Click" >导出</Button>
+            <ComboBox Name="cb_drink" Grid.Column="2"  HorizontalContentAlignment="Center" VerticalContentAlignment="Center" SelectionChanged="cb_drink_SelectionChanged"></ComboBox>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="7*"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1.5*"/>
+                    <ColumnDefinition Width="4*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Column="0" Grid.Row="0" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Location</TextBlock>
+                <TextBlock Grid.Column="1" Grid.Row="0" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">Name</TextBlock>
+                <Border Grid.Row="0" Grid.ColumnSpan="1" BorderBrush="Black" BorderThickness="1"></Border>
+                <Border Grid.Row="1" Grid.ColumnSpan="1" BorderBrush="Black" BorderThickness="1"></Border>
+                <Border Grid.Row="2" Grid.ColumnSpan="1" BorderBrush="Black" BorderThickness="1"></Border>
+                <Border Grid.Row="3" Grid.ColumnSpan="1" BorderBrush="Black" BorderThickness="1"></Border>
+                <Border Grid.Row="4" Grid.ColumnSpan="1" BorderBrush="Black" BorderThickness="1"></Border>
+                <Border Grid.Row="5" Grid.ColumnSpan="1" BorderBrush="Black" BorderThickness="1"></Border>
+                <Border Grid.Row="6" Grid.ColumnSpan="1" BorderBrush="Black" BorderThickness="1"></Border>
+                <Border Grid.Row="7" Grid.ColumnSpan="1" BorderBrush="Black" BorderThickness="1"></Border>
+                <Border Grid.Row="8" Grid.ColumnSpan="1" BorderBrush="Black" BorderThickness="1"></Border>
+                <Border Grid.Row="0" Grid.Column="1"  BorderBrush="Black" BorderThickness="1"></Border>
+                <Border Grid.Row="1" Grid.Column="1"  BorderBrush="Black" BorderThickness="1"></Border>
+                <Border Grid.Row="2" Grid.Column="1"  BorderBrush="Black" BorderThickness="1"></Border>
+                <Border Grid.Row="3" Grid.Column="1"  BorderBrush="Black" BorderThickness="1"></Border>
+                <Border Grid.Row="4" Grid.Column="1"  BorderBrush="Black" BorderThickness="1"></Border>
+                <Border Grid.Row="5" Grid.Column="1"  BorderBrush="Black" BorderThickness="1"></Border>
+                <Border Grid.Row="6" Grid.Column="1"  BorderBrush="Black" BorderThickness="1"></Border>
+                <Border Grid.Row="7" Grid.Column="1"  BorderBrush="Black" BorderThickness="1"></Border>
+                <Border Grid.Row="8" Grid.Column="1"  BorderBrush="Black" BorderThickness="1"></Border>
+
+                <TextBlock Grid.Column="0" Grid.Row="1" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">中文</TextBlock>
+                <TextBlock Grid.Column="0" Grid.Row="2" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">荷兰</TextBlock>
+                <TextBlock Grid.Column="0" Grid.Row="3" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">丹麦</TextBlock>
+                <TextBlock Grid.Column="0" Grid.Row="4" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">英文</TextBlock>
+                <TextBlock Grid.Column="0" Grid.Row="5" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">芬兰</TextBlock>
+                <TextBlock Grid.Column="0" Grid.Row="6" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">德国</TextBlock>
+                <TextBlock Grid.Column="0" Grid.Row="7" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">挪威</TextBlock>
+                <TextBlock Grid.Column="0" Grid.Row="8" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">瑞典</TextBlock>
+
+                <TextBox Name="TB_1" Grid.Column="1" Grid.Row="1" TextAlignment="Center" ></TextBox>
+                <TextBox Name="TB_2" Grid.Column="1" Grid.Row="2" TextAlignment="Center" ></TextBox>
+                <TextBox Name="TB_3" Grid.Column="1" Grid.Row="3" TextAlignment="Center" ></TextBox>
+                <TextBox Name="TB_4" Grid.Column="1" Grid.Row="4" TextAlignment="Center" ></TextBox>
+                <TextBox Name="TB_5" Grid.Column="1" Grid.Row="5" TextAlignment="Center" ></TextBox>
+                <TextBox Name="TB_6" Grid.Column="1" Grid.Row="6" TextAlignment="Center" ></TextBox>
+                <TextBox Name="TB_7" Grid.Column="1" Grid.Row="7" TextAlignment="Center" ></TextBox>
+                <TextBox Name="TB_8" Grid.Column="1" Grid.Row="8" TextAlignment="Center" ></TextBox>
+
+
+            </Grid>
+            <Button Name="btn_save" Grid.Row="1" Click="btn_save_Click">save</Button>
+        </Grid>
+    </Grid>
+
+
+</Window>

@@ -1,0 +1,175 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"                    
+                    xmlns:local="clr-namespace:MachineCreater">
+
+  <RadialGradientBrush x:Key="RadialBrushOrange" Center="0.2, 0.2" GradientOrigin="0.2, 0.2" RadiusX="0.8" RadiusY="0.8">
+    <GradientStop Color="White" Offset="0"/>
+    <GradientStop Color="Orange" Offset="0.9"/>
+  </RadialGradientBrush>
+
+  <RadialGradientBrush x:Key="RadialBrushGreen" Center="0.2, 0.2" GradientOrigin="0.2, 0.2" RadiusX="0.8" RadiusY="0.8">
+    <GradientStop Color="White" Offset="0"/>
+    <GradientStop Color="Green" Offset="0.9"/>
+  </RadialGradientBrush>
+
+  <RadialGradientBrush x:Key="RadialBrushBlue" Center="0.2, 0.2" GradientOrigin="0.2, 0.2" RadiusX="0.8" RadiusY="0.8">
+    <GradientStop Color="White" Offset="0"/>
+    <GradientStop Color="Blue" Offset="0.9"/>
+  </RadialGradientBrush>
+
+  <LinearGradientBrush x:Key="BrushStar" StartPoint="0,0" EndPoint="0,1" Opacity="1">
+    <LinearGradientBrush.GradientStops>
+      <GradientStop Color="#FAFBE9" Offset="0.1" />
+      <GradientStop Color="Orange" Offset="1" />
+    </LinearGradientBrush.GradientStops>
+  </LinearGradientBrush>
+
+    <local:Toolbox x:Key="Imageitems" ItemSize="80,80">
+        <ItemsControl.Items>
+            <Grid IsHitTestVisible="false" x:Uid="0001-01">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Image Source="/MachineCreater;component/Resources/Images/esbrewer.png">
+                   
+                </Image>
+                <TextBlock Text="Espresso" HorizontalAlignment="Center" Grid.Row="1"/>
+            </Grid>
+
+            <Grid IsHitTestVisible="false" x:Uid="0001-02">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Image Source="/MachineCreater;component/Resources/Images/monobrewer.png"/>
+                <TextBlock Text="Mono" HorizontalAlignment="Center" Grid.Row="1"/>
+            </Grid>
+
+            <Grid IsHitTestVisible="false" x:Uid="0002-01">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Image Source="/MachineCreater;component/Resources/Images/grinder.png"/>
+                <TextBlock Text="Grinder" HorizontalAlignment="Center" Grid.Row="1"/>
+            </Grid>
+
+            <Grid IsHitTestVisible="false" x:Uid="0003-01">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Image Source="/MachineCreater;component/Resources/Images/cannister_small.png"/>
+                <TextBlock Text="Canister" HorizontalAlignment="Center" Grid.Row="1"/>
+            </Grid>
+
+            <Grid IsHitTestVisible="false" x:Uid="0004-01">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Image Source="/MachineCreater;component/Resources/Images/mixer.png"/>
+                <TextBlock Text="Mixer" HorizontalAlignment="Center" Grid.Row="1"/>
+            </Grid>
+
+           
+            <Grid IsHitTestVisible="false" x:Uid="000b-01">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Image Source="/MachineCreater;component/Resources/Images/AirPump.png"/>
+                <TextBlock Text="Air-Pump" HorizontalAlignment="Center" Grid.Row="1"/>
+            </Grid>
+            <Grid IsHitTestVisible="false" x:Uid="000f-02">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Image Source="/MachineCreater;component/Resources/Images/instantboiler_small.png" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBlock Text="Gravity" HorizontalAlignment="Center"  VerticalAlignment="Center" Grid.Row="1"/>
+            </Grid>
+            <Grid IsHitTestVisible="false" x:Uid="000a-01">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Image Source="/MachineCreater;component/Resources/Images/water.png"/>
+                <TextBlock Text="PumpSys" HorizontalAlignment="Center" Grid.Row="1"/>
+            </Grid>
+            <Grid IsHitTestVisible="false" x:Uid="000f-03">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Image Source="/MachineCreater;component/Resources/Images/esboiler_small.png"/>
+                <TextBlock Text="ES" HorizontalAlignment="Center" Grid.Row="1"/>
+            </Grid>
+            <Grid IsHitTestVisible="false" x:Uid="000f-04">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Image Source="/MachineCreater;component/Resources/Images/instantboiler_small.png"/>
+                <TextBlock Text="IN" HorizontalAlignment="Center" Grid.Row="1"/>
+            </Grid>
+
+            <Grid IsHitTestVisible="false" x:Uid="000d-01">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Image Source="/MachineCreater;component/Resources/Images/Carbonator.png"/>
+                <TextBlock Text="Tea" HorizontalAlignment="Center" Grid.Row="1"/>
+            </Grid>
+            <Grid IsHitTestVisible="false" x:Uid="0013-01">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Image Source="/MachineCreater;component/Resources/Images/CoolWaterTank.png"/>
+                <TextBlock Text="Cold" HorizontalAlignment="Center" Grid.Row="1"/>
+            </Grid>
+            <Grid IsHitTestVisible="false" x:Uid="0017-01">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Image Source="/MachineCreater;component/Resources/Images/Carbonator.png" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBlock Text="SPA" HorizontalAlignment="Center" Grid.Row="1"/>
+            </Grid>
+
+            <Grid IsHitTestVisible="false" x:Uid="0000-00">
+                <!--this is visual component-->
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Image Source="/MachineCreater;component/Resources/Images/valvearray_small.png"/>
+                <TextBlock Text="Valve" HorizontalAlignment="Center" Grid.Row="1"/>
+            </Grid>
+
+            <Grid IsHitTestVisible="false" x:Uid="0008-01"> 
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Image Source="/MachineCreater;component/Resources/Images/endproduct_small.png"/>
+                <TextBlock Text="End Cup" HorizontalAlignment="Center" Grid.Row="1"/>
+            </Grid>
+
+            <Grid IsHitTestVisible="false" x:Uid="0000-02">
+                <!--this is visual component-->
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Image Source="/MachineCreater;component/Resources/Images/machine.jpg"/>
+                <TextBlock Text="Machine" HorizontalAlignment="Center" Grid.Row="1"/>
+            </Grid>
+
+
+        </ItemsControl.Items>
+  </local:Toolbox>
+</ResourceDictionary>

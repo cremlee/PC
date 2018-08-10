@@ -1,0 +1,86 @@
+﻿<Window x:Class="MachineCreater.propertywin.win_peripheral"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MachineCreater.propertywin"
+        xmlns:localconvert="clr-namespace:MachineCreater.model"
+        mc:Ignorable="d"
+        Title="Grinder Settings" Height="300" Width="400" WindowStyle="None">
+    <Window.Resources>
+        <localconvert:DeviceNameConvert x:Key="NameConvert"></localconvert:DeviceNameConvert>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFF9F6F6" Offset="0"/>
+                    <GradientStop Color="#FFF7F3F3" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1.2*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock VerticalAlignment="Center" >Device ID:</TextBlock>
+            <TextBox Grid.Column="1" VerticalAlignment="Center" IsEnabled="False" >00000201</TextBox>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="7*"/>
+            </Grid.RowDefinitions>
+
+            <Grid Background="#FFD4CECE">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock  FontStyle="Italic"  Text="Peripheral Parts " />
+                <Button Grid.Column="1"  Click="Button_Click" CommandParameter="0001" Margin="3">Add</Button>
+            </Grid>
+            <GridSplitter Focusable="False" Width="2" Background="LightGray"
+                    VerticalAlignment="Stretch" HorizontalAlignment="Right" ></GridSplitter>
+            <Grid Grid.Row="1">
+                <ListView Name="part_list">
+                    <ListView.View>
+                        <GridView>
+                            <GridView.Columns>
+                                <GridViewColumn  Header="DeviceName" Width="90" DisplayMemberBinding="{Binding Path=DeviceID, Converter={StaticResource NameConvert}}" />
+                                <GridViewColumn  Header="DeviceID" Width="100" DisplayMemberBinding="{Binding Path=DeviceID, StringFormat='X8'}" />
+                                <GridViewColumn  Header="Edit" Width="90">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Content="删除"  Width="60" Height="23" Click="Button_Click" CommandParameter="0002" Tag="{Binding Path=DeviceID}"/>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                                <GridViewColumn  Header="Delete" Width="90">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Content="编辑"  Width="60" Height="23" Click="Button_Click" CommandParameter="0003" Tag="{Binding Path=DeviceID}"/>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                            </GridView.Columns>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Button Margin="10,0" Content="Cancel" Visibility="Hidden"/>
+            <Button x:Name="btn_save" Margin="10,0" Grid.Column="1" Content="Save" Tag="Peri"/>
+        </Grid>
+    </Grid>
+</Window>

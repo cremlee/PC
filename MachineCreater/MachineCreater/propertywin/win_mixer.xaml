@@ -1,0 +1,161 @@
+﻿<Window x:Class="MachineCreater.propertywin.win_mixer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MachineCreater.propertywin"
+        mc:Ignorable="d"
+        Title="win_es_brewer" Height="500" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFF9F6F6" Offset="0"/>
+                    <GradientStop Color="#FFF7F3F3" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1.2*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.5*"/>
+                <ColumnDefinition Width="0.5*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock VerticalAlignment="Center" ><Run Text="Device ID:"/></TextBlock>
+            <TextBox Grid.Column="1" VerticalAlignment="Center" IsEnabled="False" Text="{Binding Group_id, StringFormat='X4'}" />
+            <TextBox x:Name="id_type" Grid.Column="2" VerticalAlignment="Center" IsEnabled="False" Text="{Binding Compent_type, StringFormat='X2'}"  />
+            <TextBox x:Name="id_position" Grid.Column="3" VerticalAlignment="Center" IsEnabled="False" Text="{Binding Position_id, StringFormat='X2'}"  />
+        </Grid>
+        <Grid Grid.Row="1">
+            <StackPanel>
+                <TextBlock FontStyle="Italic" Background="#FFD4CECE" ><Run Text="Common Properties"/></TextBlock>
+                <GridSplitter Focusable="False" Height="1" Background="#FFA3B6BD"
+					VerticalAlignment="Stretch" HorizontalAlignment="Stretch" />
+                <Grid Height="25">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Width="100"><Run Text="Max Capability"/></TextBlock>
+                    <ComboBox Name="cb_max_cap" Grid.Column="1" Width="100" Margin="0,2" SelectionChanged="cb_max_cap_SelectionChanged">
+                        <ComboBoxItem Content="1.0 L" HorizontalAlignment="Left" Width="98" Tag="10"/>
+                        <ComboBoxItem Content="1.5 L" HorizontalAlignment="Left" Width="98" Tag="15"/>
+                        <ComboBoxItem Content="2.0 L" HorizontalAlignment="Left" Width="98" Tag="20"/>
+                        <ComboBoxItem Content="2.5 L" HorizontalAlignment="Left" Width="98" Tag="25"/>
+                    </ComboBox>
+                </Grid>
+                <Grid Height="25">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center"   Width="100" ><Run Text="Mixer motor speed"/></TextBlock>
+                    <TextBox x:Name="tb_mixer_speed" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="100"  Text="{Binding  Run_speed}"></TextBox>
+                </Grid>
+                
+                <TextBlock FontStyle="Italic" Background="#FFD4CECE" ><Run Text="calibration Properties"/></TextBlock>
+                <GridSplitter Focusable="False" Height="1" Background="#FFA3B6BD"
+					VerticalAlignment="Stretch" HorizontalAlignment="Stretch" />
+                <Grid Height="25">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center"   Width="100" ><Run Text="Hot valve flow"/></TextBlock>
+                    <TextBox x:Name="tb_cal_hot" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="100"  Text="{Binding  Hot_valve_flow}"></TextBox>
+                </Grid>
+                <Grid Height="25">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center"   Width="100" ><Run Text="Cold valve flow"/></TextBlock>
+                    <TextBox x:Name="tb_cal_cold" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="100"  Text="{Binding  Cold_valve_flow}"></TextBox>
+                </Grid>
+                <TextBlock FontStyle="Italic" Background="#FFD4CECE" ><Run Text="maintenace Properties"/></TextBlock>
+                <GridSplitter Focusable="False" Height="1" Background="#FFA3B6BD"
+					VerticalAlignment="Stretch" HorizontalAlignment="Stretch" />
+                <Grid Height="25">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center"   Width="100" ><Run Text="Mixer motor life"/></TextBlock>
+                    <TextBox x:Name="tb_life_motor" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="100"  Text="{Binding  Life_motor}"></TextBox>
+                </Grid>
+                <Grid Height="25">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center"   Width="100" ><Run Text="Cwater valve life"/></TextBlock>
+                    <TextBox x:Name="tb_life_cold_valve" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="100"  Text="{Binding  Life_cold_valve}"></TextBox>
+                </Grid>
+                <Grid Height="25">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center"   Width="100" ><Run Text="Hwater valve life"/></TextBlock>
+                    <TextBox x:Name="tb_life_hot_valve" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="100"  Text="{Binding  Life_hot_valve}"></TextBox>
+                </Grid>
+                <Grid Height="25">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center"   Width="100" ><Run Text="Whipper life"/></TextBlock>
+                    <TextBox x:Name="tb_life_whipper" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="100"  Text="{Binding  Life_whipper}"></TextBox>
+                </Grid>
+                <TextBlock FontStyle="Italic" Background="#FFD4CECE" ><Run Text="Fan Properties"/></TextBlock>
+                <GridSplitter Focusable="False" Height="1" Background="#FFA3B6BD"
+					VerticalAlignment="Stretch" HorizontalAlignment="Stretch" />
+                <CheckBox Name="ckb_fan" VerticalAlignment="Center" HorizontalAlignment="Left"  Margin="25,2" Click="CheckBox_Checked" ><Run Text="Use or not"/></CheckBox>
+                <StackPanel Name="gd_fan" >
+                    <Grid Height="25" Margin="25,2" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1.2*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="0.5*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock VerticalAlignment="Center" ><Run Text="Device ID:"/></TextBlock>
+                    <TextBox Grid.Column="1" VerticalAlignment="Center" IsEnabled="False" Text="001401" />
+                        <TextBox Grid.Column="2" VerticalAlignment="Center" IsEnabled="False" Text="{Binding Position_id, StringFormat='X2'}"  />
+        </Grid>
+        <Grid Height="25">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center"   Width="100" ><Run Text="Fan speed"/></TextBlock>
+                        <TextBox x:Name="tb_fan_speed" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="100"  Text="{Binding  Run_speed}"></TextBox>
+                    </Grid>
+                    <Grid Height="25">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center"   Width="100" ><Run Text="Fan motor life"/></TextBlock>
+                        <TextBox x:Name="tb_fan_motor" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="100"  Text="{Binding  Life_motor}"></TextBox>
+                    </Grid>
+                </StackPanel>
+                               
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Button Margin="10,0" Content="Cancel" Visibility="Hidden"/>
+            <Button x:Name="btn_save" Margin="10,0" Grid.Column="1" Content="Save" Tag="Mixer"/>
+        </Grid>
+        
+    </Grid>
+</Window>
