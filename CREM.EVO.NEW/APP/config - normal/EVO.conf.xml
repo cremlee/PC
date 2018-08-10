@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EVOMachineInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="EVO-MF13" DATE="20160129">
+  <MachineID>1</MachineID>
+  <ValveAmt>11</ValveAmt>
+  <MixerAmt>4</MixerAmt>
+  <CanisterAmt>3</CanisterAmt>
+  <BeanHopperAmt>1</BeanHopperAmt>
+  <WaterValveList DeviceID="5" Name="Mixer1 water valve">
+    <DeviceIoAdress>26</DeviceIoAdress>
+    <Flow>27</Flow>
+  </WaterValveList>
+  <WaterValveList DeviceID="6" Name="Mixer2 water valve">
+    <DeviceIoAdress>27</DeviceIoAdress>
+    <Flow>27</Flow>
+  </WaterValveList>
+  <WaterValveList DeviceID="11" Name="hot water inlet valve">
+    <DeviceIoAdress>16</DeviceIoAdress>
+    <Flow>10</Flow>
+  </WaterValveList>
+  <WaterValveList DeviceID="12" Name="cold Water inlet valve">
+    <DeviceIoAdress>23</DeviceIoAdress>
+    <Flow>10</Flow>
+  </WaterValveList>
+  <WaterValveList DeviceID="13" Name="hot water out valve">
+    <DeviceIoAdress>15</DeviceIoAdress>
+    <Flow>10</Flow>
+  </WaterValveList>
+  <WaterValveList DeviceID="15" Name="cold water out valve">
+    <DeviceIoAdress>9</DeviceIoAdress>
+    <Flow>10</Flow>
+  </WaterValveList>
+  <WaterValveList DeviceID="14" Name="brew hot water valve">
+    <DeviceIoAdress>24</DeviceIoAdress>
+    <Flow>30</Flow>
+  </WaterValveList>
+  <WaterValveList DeviceID="17" Name="mix cold water valve">
+    <DeviceIoAdress>5</DeviceIoAdress>
+    <Flow>10</Flow>
+  </WaterValveList>
+  <WaterValveList DeviceID="20" Name="LED">
+    <DeviceIoAdress>0</DeviceIoAdress>
+    <Flow>0</Flow>
+  </WaterValveList>
+  <WaterValveList DeviceID="16" Name="carbonic water valve">
+    <DeviceIoAdress>17</DeviceIoAdress>
+    <Flow>10</Flow>
+  </WaterValveList>
+  <MixerUnitList DeviceID="7" Name="Mix1 whipper">
+    <DeviceIoAdress>26</DeviceIoAdress>
+    <SpeedParam>100</SpeedParam>
+  </MixerUnitList>
+  <MixerUnitList DeviceID="8" Name="Mix2 whipper">
+    <DeviceIoAdress>27</DeviceIoAdress>
+    <SpeedParam>100</SpeedParam>
+  </MixerUnitList>
+  <MixerUnitList DeviceID="10" Name="Fan">
+    <DeviceIoAdress>25</DeviceIoAdress>
+    <SpeedParam>100</SpeedParam>
+  </MixerUnitList>
+  <MixerUnitList DeviceID="9" Name="brew motor">
+    <DeviceIoAdress>28</DeviceIoAdress>
+    <SpeedParam>100</SpeedParam>
+  </MixerUnitList>
+  <CanisterUnitList DeviceID="3" Name="canister1">
+    <DeviceIoAdress>2</DeviceIoAdress>
+    <Flow>10</Flow>
+    <Postion>1</Postion>
+    <PowderType>1</PowderType>
+  </CanisterUnitList>
+  <CanisterUnitList DeviceID="4" Name="canister2">
+    <DeviceIoAdress>3</DeviceIoAdress>
+    <Flow>10</Flow>
+    <Postion>2</Postion>
+    <PowderType>2</PowderType>
+  </CanisterUnitList>
+  <CanisterUnitList DeviceID="19" Name="canister3">
+    <DeviceIoAdress>4</DeviceIoAdress>
+    <Flow>10</Flow>
+    <Postion>3</Postion>
+    <PowderType>4</PowderType>
+  </CanisterUnitList>
+  <BeanHopperUintList DeviceID="1" Name="grinder1">
+    <DeviceIoAdress>1</DeviceIoAdress>
+    <Flow>10</Flow>
+    <PowderType>1</PowderType>
+  </BeanHopperUintList>
+
+</EVOMachineInfo>

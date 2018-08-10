@@ -1,0 +1,11 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:MetroProgressBar" x:Class="MetroProgressBar.MainWindow"
+        Title="MainWindow" Height="300" Width="700" Background="Gray">
+    <Grid>
+
+        <local:MetroProBar  HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0"/>
+
+    </Grid>
+</Window>

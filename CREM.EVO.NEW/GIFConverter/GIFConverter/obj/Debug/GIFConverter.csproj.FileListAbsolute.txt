@@ -1,0 +1,16 @@
+E:\工作工程目录\GIFConverter\GIFConverter\obj\Debug\ResolveAssemblyReference.cache
+E:\工作工程目录\GIFConverter\GIFConverter\obj\Debug\GIFConverter.Form1.resources
+E:\工作工程目录\GIFConverter\GIFConverter\obj\Debug\GIFConverter.Properties.Resources.resources
+E:\工作工程目录\GIFConverter\GIFConverter\obj\Debug\GIFConverter.csproj.GenerateResource.Cache
+E:\工作工程目录\GIFConverter\GIFConverter\bin\Debug\GIFConverter.exe
+E:\工作工程目录\GIFConverter\GIFConverter\bin\Debug\GIFConverter.pdb
+E:\工作工程目录\GIFConverter\GIFConverter\obj\Debug\GIFConverter.exe
+E:\工作工程目录\GIFConverter\GIFConverter\obj\Debug\GIFConverter.pdb
+E:\project\EVO-Platform\CREM.EVO.NEW\GIFConverter\GIFConverter\obj\Debug\GIFConverter.exe
+E:\project\EVO-Platform\CREM.EVO.NEW\GIFConverter\GIFConverter\obj\Debug\GIFConverter.pdb
+E:\project\EVO-Platform\CREM.EVO.NEW\GIFConverter\GIFConverter\bin\Debug\GIFConverter.exe
+E:\project\EVO-Platform\CREM.EVO.NEW\GIFConverter\GIFConverter\bin\Debug\GIFConverter.pdb
+E:\project\EVO-Platform\CREM.EVO.NEW\GIFConverter\GIFConverter\obj\Debug\GIFConverter.csprojResolveAssemblyReference.cache
+E:\project\EVO-Platform\CREM.EVO.NEW\GIFConverter\GIFConverter\obj\Debug\GIFConverter.Form1.resources
+E:\project\EVO-Platform\CREM.EVO.NEW\GIFConverter\GIFConverter\obj\Debug\GIFConverter.Properties.Resources.resources
+E:\project\EVO-Platform\CREM.EVO.NEW\GIFConverter\GIFConverter\obj\Debug\GIFConverter.csproj.GenerateResource.Cache

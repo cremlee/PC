@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BaseSetting xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EvoDbTable>
+    <DBItem DBID="1" Description="Water tank block temperature                  Byte3: 小数点前的温度值（高字节）               Byte4: 小数点后的温度值（低字节，保留2位）Value range: 60-70 " DBvalue="17920" />
+    <DBItem DBID="2" Description="Water tank idle temperature                    Byte3: 小数点前的温度值（高字节）               Byte4: 小数点后的温度值（低字节，保留2位）Value range: 63-70 " DBvalue="17920" />
+    <DBItem DBID="3" Description="LED                                                               Byte 1: led mode                                                = 1 always on= 2 flash= 3 breath= 4 circling= 5 off                                                                    Byte 2: led color                                               = 1 red= 2 green= 3 blue= 4 orange= 5 yellow= 6 purple                                          Byte 3: led intensity= 1 normal= 2 weak      Byte 4: led position= 1 door= 2 bean hopper                           " DBvalue="4369" />
+    <DBItem DBID="4" Description="Brew water volume calibration offset time" DBvalue="200" />
+    <DBItem DBID="5" Description="Instant water volume calibration offset time" DBvalue="1" />
+    <DBItem DBID="6" Description="Cold water volume calibration offset time" DBvalue="1" />
+    <DBItem DBID="7" Description="Grinder calibration offset time" DBvalue="1" />
+    <DBItem DBID="8" Description="Water temperature calibration offset value" DBvalue="1" />
+    <DBItem DBID="9" Description="Brew position calibration time  (speed =100)" DBvalue="1" />
+    <DBItem DBID="10" Description="Start Heating Temperature" DBvalue="1" />
+    <DBItem DBID="11" Description="Stop heating temperature " DBvalue="1" />
+    <DBItem DBID="12" Description="Fan speed" DBvalue="1" />
+    <DBItem DBID="13" Description="Fan speed" DBvalue="100" />
+    <DBItem DBID="14" Description="Jug mode " DBvalue="1" />
+    <DBItem DBID="15" Description="Grinder packag" DBvalue="1" />
+    <DBItem DBID="16" Description="Canister package" DBvalue="1" />
+    <DBItem DBID="17" Description="Canister package" DBvalue="131844" />
+    <DBItem DBID="18" Description="Brew position calibration time  (speed =75)" DBvalue="1" />
+    <DBItem DBID="19" Description="Brew position calibration time  (speed =50)" DBvalue="1" />
+  </EvoDbTable>
+</BaseSetting>

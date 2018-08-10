@@ -1,0 +1,19 @@
+﻿<Window x:Class="CREM.EVO.EVOToolWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="EVOToolWin" >
+    <Viewbox Stretch="Fill">
+        <Grid Height="600" Width="800">
+            <WrapPanel>
+                <Button Style="{StaticResource MyYuanButton}"  VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Content="PictureMaker" Height="100" Width="100" Margin="40" Click="Button_Click"></Button>
+                <Button Style="{StaticResource MyYuanButton}"  VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Height="100" Width="100" Content="UsbKeyMaker" Margin="40" Click="Button_Click_1"></Button>
+                <Button Style="{StaticResource MyYuanButton}"  VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Height="100" Width="100" Content="VisualApp" Margin="40" Click="Button_Click_2"></Button>
+                <Button Style="{StaticResource MyYuanButton}"  VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Height="100" Width="100" Content="DrinkMap"  Margin="40" Click="Led_colorset"/>
+                <Button Style="{StaticResource MyYuanButton}"  VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Height="100" Width="100" Content="Clean Test"  Margin="40" Click="Led_clean"/>
+                <Button Style="{StaticResource MyYuanButton}"  VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Height="100" Width="100" Content="Led Setting"  Margin="40" Click="Led_set"/>
+                <Button Style="{StaticResource MyYuanButton}"  VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Height="100" Width="100" Content="Drink Test"  Margin="40" Click="drink_test"/>
+
+            </WrapPanel>
+        </Grid>
+    </Viewbox>
+</Window>

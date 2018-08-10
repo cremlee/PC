@@ -1,0 +1,60 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Utility="clr-namespace:CREM.EVO.Utility;assembly=CREM.EVO.Utility" x:Class="CREM.EVO.EVOLedColorManage"
+        Title="EVOLedColorManage" >
+    <Window.Resources>
+        <Utility:IntToselectIndex x:Key="IntToselectIndex"/>
+    </Window.Resources>
+    <Viewbox Stretch="Fill">
+        <Grid Height="600" Width="800">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="7*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.ColumnSpan="2" Grid.Row="0">
+                <TextBlock Text="LED Color Setting" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36"/>
+            </Grid>
+            <Grid x:Name="grd_cmd" Grid.Row="1" Grid.Column="1">
+                <StackPanel>
+                    <Button Style="{StaticResource ButtonStyle}" Content="Set" FontSize="28" Margin="15,50" Click="Button_Click"></Button>
+                </StackPanel>
+            </Grid>
+            <Grid x:Name="grd_fun" Grid.Row="1" Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="2*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1.3*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="LED Color Number" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="24"></TextBlock>
+                <TextBlock Foreground="Red" Grid.Row="1" Grid.Column="0" Text="RED" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="24"></TextBlock>
+                <TextBlock Foreground="Green" Grid.Row="2" Grid.Column="0" Text="GREEN" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="24"></TextBlock>
+                <TextBlock Foreground="Blue" Grid.Row="3" Grid.Column="0" Text="BLUE" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="24"></TextBlock>
+                <ComboBox HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Row="0" Grid.Column="1" Margin="80,20" Name="cb_Led" FontSize="20" SelectionChanged="cb_Led_SelectionChanged">
+                    <ComboBoxItem Margin="5" BorderThickness="1" BorderBrush="Gray" HorizontalContentAlignment="Center">Color 1</ComboBoxItem>
+                    <ComboBoxItem Margin="5" BorderThickness="1" BorderBrush="Gray" HorizontalContentAlignment="Center">Color 2</ComboBoxItem>
+                    <ComboBoxItem Margin="5" BorderThickness="1" BorderBrush="Gray" HorizontalContentAlignment="Center">Color 3</ComboBoxItem>
+                    <ComboBoxItem Margin="5" BorderThickness="1" BorderBrush="Gray" HorizontalContentAlignment="Center">Color 4</ComboBoxItem>
+                    <ComboBoxItem Margin="5" BorderThickness="1" BorderBrush="Gray" HorizontalContentAlignment="Center">Color 5</ComboBoxItem>
+                    <ComboBoxItem Margin="5" BorderThickness="1" BorderBrush="Gray" HorizontalContentAlignment="Center">Color 6</ComboBoxItem>
+                    <ComboBoxItem Margin="5" BorderThickness="1" BorderBrush="Gray" HorizontalContentAlignment="Center">Color 7</ComboBoxItem>
+                </ComboBox>
+                <Slider Name="sld_r" IsSnapToTickEnabled="True" TickFrequency="1" TickPlacement="BottomRight" Margin="30"  Grid.Column="1" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Center" Maximum="255" SmallChange="1" LargeChange="5"  ValueChanged="rgb_changed"></Slider>
+                <Slider Name="sld_g"  IsSnapToTickEnabled="True" TickFrequency="1" TickPlacement="BottomRight" Margin="30"  Grid.Column="1" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Center" Maximum="255" SmallChange="1" LargeChange="5" ValueChanged="rgb_changed"></Slider>
+                <Slider Name="sld_b"  IsSnapToTickEnabled="True" TickFrequency="1" TickPlacement="BottomRight" Margin="30"  Grid.Column="1" Grid.Row="3" HorizontalAlignment="Stretch" VerticalAlignment="Center" Maximum="255" SmallChange="1" LargeChange="5" ValueChanged="rgb_changed"></Slider>
+                <Thumb Name="color_show" Grid.Column="1" Grid.Row="4" Margin="80,20"></Thumb>
+            </Grid>
+
+        </Grid>
+    </Viewbox>
+</Window>

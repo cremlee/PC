@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EvoRecipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2016/2/25 17:02:11">
+  <_lstIngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>Water</Type>
+      <ID>98</ID>
+      <Name>ig98.htwater</Name>
+      <Water WaterType="0" WaterVolume="200" UsedTime="500" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>Water</Type>
+      <ID>99</ID>
+      <Name>ig99.cdwater</Name>
+      <Water WaterType="1" WaterVolume="200" UsedTime="500" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>Water</Type>
+      <ID>100</ID>
+      <Name>ig100.cowater</Name>
+      <Water WaterType="2" WaterVolume="200" UsedTime="500" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>FILTERBREW</Type>
+      <ID>1</ID>
+      <Name>ig1.coffee</Name>
+      <FilterBrew WaterVolume="170" Grind1Type="129" Grind1Cnt="110" Grind2Type="0" Grind2Cnt="0" Tm_Pre="4100" Tm_Press="11500" Tm_Depress="4000" Tm_DelayOpen="6000" UpPostion="50" DownPostion="50" UsedTime="181" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>FILTERBREW</Type>
+      <ID>2</ID>
+      <Name>ig2.small.coffee</Name>
+      <FilterBrew WaterVolume="110" Grind1Type="129" Grind1Cnt="90" Grind2Type="0" Grind2Cnt="0" Tm_Pre="4100" Tm_Press="11500" Tm_Depress="4000" Tm_DelayOpen="6000" UpPostion="50" DownPostion="50" UsedTime="119" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>3</ID>
+      <Name>ig3.milk</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="40" PackageOneType="4" PackageOneAmt="40" PackageTwoType="0" PackageTwoAmt="0" PreFlush="5" PreFlushTm="500" PostFlushTm="3000" AfterFlush="5" WhipperSpeed="30" Volume="54" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>FILTERBREW</Type>
+      <ID>4</ID>
+      <Name>ig3.coffee</Name>
+      <FilterBrew WaterVolume="120" Grind1Type="129" Grind1Cnt="110" Grind2Type="0" Grind2Cnt="0" Tm_Pre="4100" Tm_Press="11500" Tm_Depress="4000" Tm_DelayOpen="6000" UpPostion="50" DownPostion="50" UsedTime="131" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>5</ID>
+      <Name>ig4.espresso</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="30" PackageOneType="1" PackageOneAmt="15" PackageTwoType="0" PackageTwoAmt="0" PreFlush="5" PreFlushTm="0" PostFlushTm="0" AfterFlush="5" WhipperSpeed="100" Volume="41" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>FILTERBREW</Type>
+      <ID>6</ID>
+      <Name>ig5.coffee</Name>
+      <FilterBrew WaterVolume="110" Grind1Type="129" Grind1Cnt="100" Grind2Type="0" Grind2Cnt="0" Tm_Pre="4100" Tm_Press="11500" Tm_Depress="4000" Tm_DelayOpen="6000" UpPostion="50" DownPostion="50" UsedTime="120" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>7</ID>
+      <Name>ig5.milk</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="50" PackageOneType="4" PackageOneAmt="80" PackageTwoType="0" PackageTwoAmt="0" PreFlush="5" PreFlushTm="0" PostFlushTm="0" AfterFlush="5" WhipperSpeed="40" Volume="68" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>8</ID>
+      <Name>ig6.espresso</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="45" PackageOneType="1" PackageOneAmt="20" PackageTwoType="0" PackageTwoAmt="0" PreFlush="10" PreFlushTm="0" PostFlushTm="0" AfterFlush="10" WhipperSpeed="100" Volume="67" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>9</ID>
+      <Name>ig6.milk</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="65" PackageOneType="4" PackageOneAmt="100" PackageTwoType="0" PackageTwoAmt="0" PreFlush="10" PreFlushTm="0" PostFlushTm="0" AfterFlush="10" WhipperSpeed="100" Volume="95" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>10</ID>
+      <Name>ig7.lat.espresso</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="40" PackageOneType="1" PackageOneAmt="20" PackageTwoType="0" PackageTwoAmt="0" PreFlush="10" PreFlushTm="0" PostFlushTm="0" AfterFlush="5" WhipperSpeed="50" Volume="57" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>11</ID>
+      <Name>ig7.lat.milk</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="70" PackageOneType="4" PackageOneAmt="140" PackageTwoType="0" PackageTwoAmt="0" PreFlush="15" PreFlushTm="0" PostFlushTm="0" AfterFlush="10" WhipperSpeed="50" Volume="109" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>12</ID>
+      <Name>ig8.mocca.espresso</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="25" PackageOneType="1" PackageOneAmt="20" PackageTwoType="0" PackageTwoAmt="0" PreFlush="5" PreFlushTm="0" PostFlushTm="0" AfterFlush="5" WhipperSpeed="100" Volume="37" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>13</ID>
+      <Name>ig8.mocca.milk</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="55" PackageOneType="4" PackageOneAmt="110" PackageTwoType="0" PackageTwoAmt="0" PreFlush="10" PreFlushTm="0" PostFlushTm="0" AfterFlush="1" WhipperSpeed="100" Volume="77" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>14</ID>
+      <Name>ig8.mocca.choco</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="45" PackageOneType="2" PackageOneAmt="60" PackageTwoType="0" PackageTwoAmt="0" PreFlush="5" PreFlushTm="0" PostFlushTm="0" AfterFlush="10" WhipperSpeed="100" Volume="66" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>15</ID>
+      <Name>ig9.chocolate</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="125" PackageOneType="2" PackageOneAmt="200" PackageTwoType="0" PackageTwoAmt="0" PreFlush="15" PreFlushTm="0" PostFlushTm="0" AfterFlush="10" WhipperSpeed="100" Volume="170" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>16</ID>
+      <Name>ig10.milk</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="65" PackageOneType="4" PackageOneAmt="110" PackageTwoType="0" PackageTwoAmt="0" PreFlush="10" PreFlushTm="0" PostFlushTm="0" AfterFlush="0" WhipperSpeed="100" Volume="86" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>17</ID>
+      <Name>ig10.choco</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="65" PackageOneType="2" PackageOneAmt="180" PackageTwoType="0" PackageTwoAmt="0" PreFlush="1" PreFlushTm="0" PostFlushTm="0" AfterFlush="10" WhipperSpeed="100" Volume="94" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>18</ID>
+      <Name>ig11.add.milk</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="35" PackageOneType="4" PackageOneAmt="40" PackageTwoType="0" PackageTwoAmt="0" PreFlush="5" PreFlushTm="0" PostFlushTm="0" AfterFlush="10" WhipperSpeed="50" Volume="54" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>19</ID>
+      <Name>ig12.double.espresso</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="65" PackageOneType="1" PackageOneAmt="30" PackageTwoType="0" PackageTwoAmt="0" PreFlush="5" PreFlushTm="0" PostFlushTm="0" AfterFlush="10" WhipperSpeed="100" Volume="83" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>20</ID>
+      <Name>ig13.latmoc.milk</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="40" PackageOneType="4" PackageOneAmt="60" PackageTwoType="0" PackageTwoAmt="0" PreFlush="10" PreFlushTm="0" PostFlushTm="0" AfterFlush="1" WhipperSpeed="50" Volume="57" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>21</ID>
+      <Name>ig13.latmoc.espresso</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="25" PackageOneType="1" PackageOneAmt="20" PackageTwoType="0" PackageTwoAmt="0" PreFlush="5" PreFlushTm="0" PostFlushTm="0" AfterFlush="10" WhipperSpeed="70" Volume="42" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>22</ID>
+      <Name>ig14.eschoco.milk</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="45" PackageOneType="4" PackageOneAmt="60" PackageTwoType="0" PackageTwoAmt="0" PreFlush="10" PreFlushTm="0" PostFlushTm="0" AfterFlush="1" WhipperSpeed="100" Volume="62" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>23</ID>
+      <Name>ig14.eschoco.choc</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="55" PackageOneType="2" PackageOneAmt="100" PackageTwoType="0" PackageTwoAmt="0" PreFlush="5" PreFlushTm="0" PostFlushTm="0" AfterFlush="10" WhipperSpeed="100" Volume="80" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>24</ID>
+      <Name>ig14.eschoco.es</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="25" PackageOneType="1" PackageOneAmt="20" PackageTwoType="0" PackageTwoAmt="0" PreFlush="5" PreFlushTm="0" PostFlushTm="0" AfterFlush="5" WhipperSpeed="100" Volume="37" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>25</ID>
+      <Name>ig15.coffe4.inst</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="130" PackageOneType="1" PackageOneAmt="30" PackageTwoType="0" PackageTwoAmt="0" PreFlush="15" PreFlushTm="0" PostFlushTm="0" AfterFlush="15" WhipperSpeed="40" Volume="163" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>26</ID>
+      <Name>ig16.moc.milk</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="55" PackageOneType="4" PackageOneAmt="100" PackageTwoType="0" PackageTwoAmt="0" PreFlush="10" PreFlushTm="0" PostFlushTm="0" AfterFlush="1" WhipperSpeed="100" Volume="76" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>27</ID>
+      <Name>ig16.moc.choc</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="45" PackageOneType="2" PackageOneAmt="40" PackageTwoType="0" PackageTwoAmt="0" PreFlush="5" PreFlushTm="0" PostFlushTm="0" AfterFlush="10" WhipperSpeed="100" Volume="64" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>28</ID>
+      <Name>ig16.moc.es</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="25" PackageOneType="1" PackageOneAmt="20" PackageTwoType="0" PackageTwoAmt="0" PreFlush="5" PreFlushTm="0" PostFlushTm="0" AfterFlush="5" WhipperSpeed="100" Volume="37" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>FILTERBREW</Type>
+      <ID>29</ID>
+      <Name>ig17.fb.cflat.cf</Name>
+      <FilterBrew WaterVolume="60" Grind1Type="129" Grind1Cnt="90" Grind2Type="0" Grind2Cnt="0" Tm_Pre="4100" Tm_Press="11500" Tm_Depress="4000" Tm_DelayOpen="6000" UpPostion="50" DownPostion="50" UsedTime="69" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>30</ID>
+      <Name>ig17.fb.cflat.mlk</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="60" PackageOneType="4" PackageOneAmt="140" PackageTwoType="0" PackageTwoAmt="0" PreFlush="10" PreFlushTm="0" PostFlushTm="0" AfterFlush="10" WhipperSpeed="70" Volume="94" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>FILTERBREW</Type>
+      <ID>31</ID>
+      <Name>ig18.fb.moc.cf</Name>
+      <FilterBrew WaterVolume="50" Grind1Type="129" Grind1Cnt="70" Grind2Type="0" Grind2Cnt="0" Tm_Pre="4100" Tm_Press="11500" Tm_Depress="4000" Tm_DelayOpen="6000" UpPostion="50" DownPostion="50" UsedTime="57" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>32</ID>
+      <Name>ig18.fb.moc.mlk</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="55" PackageOneType="4" PackageOneAmt="110" PackageTwoType="0" PackageTwoAmt="0" PreFlush="5" PreFlushTm="0" PostFlushTm="0" AfterFlush="1" WhipperSpeed="100" Volume="72" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>33</ID>
+      <Name>ig18.fb.moc.choc</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="45" PackageOneType="2" PackageOneAmt="60" PackageTwoType="0" PackageTwoAmt="0" PreFlush="5" PreFlushTm="0" PostFlushTm="0" AfterFlush="10" WhipperSpeed="100" Volume="66" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>FILTERBREW</Type>
+      <ID>34</ID>
+      <Name>ig19.fb.cap.cf</Name>
+      <FilterBrew WaterVolume="70" Grind1Type="129" Grind1Cnt="95" Grind2Type="0" Grind2Cnt="0" Tm_Pre="4100" Tm_Press="11500" Tm_Depress="4000" Tm_DelayOpen="6000" UpPostion="50" DownPostion="50" UsedTime="79" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>35</ID>
+      <Name>ig19.fb.cap.mlk</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="70" PackageOneType="4" PackageOneAmt="100" PackageTwoType="0" PackageTwoAmt="0" PreFlush="10" PreFlushTm="0" PostFlushTm="0" AfterFlush="10" WhipperSpeed="100" Volume="100" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>FILTERBREW</Type>
+      <ID>36</ID>
+      <Name>ig20.fb.es</Name>
+      <FilterBrew WaterVolume="65" Grind1Type="129" Grind1Cnt="80" Grind2Type="0" Grind2Cnt="0" Tm_Pre="4100" Tm_Press="11500" Tm_Depress="4000" Tm_DelayOpen="6000" UpPostion="50" DownPostion="50" UsedTime="73" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>FILTERBREW</Type>
+      <ID>37</ID>
+      <Name>ig21.fb.moc.cf</Name>
+      <FilterBrew WaterVolume="50" Grind1Type="129" Grind1Cnt="70" Grind2Type="0" Grind2Cnt="0" Tm_Pre="4100" Tm_Press="11500" Tm_Depress="4000" Tm_DelayOpen="6000" UpPostion="50" DownPostion="50" UsedTime="57" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>38</ID>
+      <Name>ig21.fb.moc.mlk</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="55" PackageOneType="4" PackageOneAmt="100" PackageTwoType="0" PackageTwoAmt="0" PreFlush="10" PreFlushTm="0" PostFlushTm="0" AfterFlush="1" WhipperSpeed="100" Volume="76" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>39</ID>
+      <Name>ig21.fb.moc.choc</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="40" PackageOneType="2" PackageOneAmt="40" PackageTwoType="0" PackageTwoAmt="0" PreFlush="5" PreFlushTm="0" PostFlushTm="0" AfterFlush="10" WhipperSpeed="100" Volume="59" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>FILTERBREW</Type>
+      <ID>40</ID>
+      <Name>ig22.fb.moclat.cf</Name>
+      <FilterBrew WaterVolume="50" Grind1Type="129" Grind1Cnt="80" Grind2Type="0" Grind2Cnt="0" Tm_Pre="4100" Tm_Press="11500" Tm_Depress="4000" Tm_DelayOpen="6000" UpPostion="50" DownPostion="50" UsedTime="58" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>41</ID>
+      <Name>ig22.fb.moclat.mlk</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="55" PackageOneType="4" PackageOneAmt="100" PackageTwoType="0" PackageTwoAmt="0" PreFlush="10" PreFlushTm="0" PostFlushTm="0" AfterFlush="1" WhipperSpeed="50" Volume="76" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>42</ID>
+      <Name>ig22.fb.moclat.choc</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="40" PackageOneType="2" PackageOneAmt="40" PackageTwoType="0" PackageTwoAmt="0" PreFlush="5" PreFlushTm="0" PostFlushTm="0" AfterFlush="10" WhipperSpeed="50" Volume="59" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>FILTERBREW</Type>
+      <ID>43</ID>
+      <Name>ig23.fb.latmac.cf</Name>
+      <FilterBrew WaterVolume="50" Grind1Type="129" Grind1Cnt="80" Grind2Type="0" Grind2Cnt="0" Tm_Pre="4100" Tm_Press="11500" Tm_Depress="4000" Tm_DelayOpen="6000" UpPostion="50" DownPostion="50" UsedTime="58" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>44</ID>
+      <Name>ig23.fb.latmac.mlk</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="40" PackageOneType="4" PackageOneAmt="60" PackageTwoType="0" PackageTwoAmt="0" PreFlush="5" PreFlushTm="0" PostFlushTm="0" AfterFlush="1" WhipperSpeed="50" Volume="52" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>45</ID>
+      <Name>ig24.soup</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="135" PackageOneType="1" PackageOneAmt="70" PackageTwoType="0" PackageTwoAmt="0" PreFlush="15" PreFlushTm="0" PostFlushTm="0" AfterFlush="10" WhipperSpeed="100" Volume="167" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>46</ID>
+      <Name>ig25.cofmlk.cof</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="65" PackageOneType="1" PackageOneAmt="20" PackageTwoType="0" PackageTwoAmt="0" PreFlush="15" PreFlushTm="0" PostFlushTm="0" AfterFlush="10" WhipperSpeed="40" Volume="92" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>47</ID>
+      <Name>ig25.cofmlk.mlk</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="35" PackageOneType="4" PackageOneAmt="80" PackageTwoType="0" PackageTwoAmt="0" PreFlush="15" PreFlushTm="0" PostFlushTm="0" AfterFlush="10" WhipperSpeed="100" Volume="68" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>48</ID>
+      <Name>ig23.fb.latmac.milk2</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="55" PackageOneType="4" PackageOneAmt="8" PackageTwoType="0" PackageTwoAmt="0" PreFlush="1" PreFlushTm="0" PostFlushTm="0" AfterFlush="10" WhipperSpeed="80" Volume="66" WaterType="0" />
+    </IngredientInfo>
+    <IngredientInfo>
+      <CrtModifyStatus>MODIFY</CrtModifyStatus>
+      <Type>INSTANTPOWDER</Type>
+      <ID>49</ID>
+      <Name>ig13.mac.milk2</Name>
+      <InstantPowder MixIndex-RSV="0" WaterVolume="55" PackageOneType="4" PackageOneAmt="80" PackageTwoType="0" PackageTwoAmt="0" PreFlush="5" PreFlushTm="0" PostFlushTm="0" AfterFlush="10" WhipperSpeed="70" Volume="78" WaterType="0" />
+    </IngredientInfo>
+  </_lstIngredientInfo>
+  <_lstRecipeInfo>
+    <RecipeInfo>
+      <CrtModifyStatus>NEWONE</CrtModifyStatus>
+      <ID>1</ID>
+      <Name>Still Water</Name>
+      <_lstIngredientStep>
+        <IngredientStep StartTime="0" ID="99" Name="ig99.cdwater" Volume="0" Type="5" ScaleRate="100" />
+      </_lstIngredientStep>
+      <PublicInfo CupSensor="1" UseCount="1" Ledmode="1" LedColor="1" LedIntensity="1" DispenseType="1" setStrength="0" setVolume="1" setMilk="0" setSugar="0" setCups="0" price="0" />
+    </RecipeInfo>
+    <RecipeInfo>
+      <CrtModifyStatus>NEWONE</CrtModifyStatus>
+      <ID>2</ID>
+      <Name>Tea Water</Name>
+      <_lstIngredientStep>
+        <IngredientStep StartTime="0" ID="98" Name="ig98.htwater" Volume="0" Type="5" ScaleRate="100" />
+      </_lstIngredientStep>
+      <PublicInfo CupSensor="1" UseCount="1" Ledmode="1" LedColor="1" LedIntensity="1" DispenseType="1" setStrength="0" setVolume="1" setMilk="0" setSugar="0" setCups="0" price="0" />
+    </RecipeInfo>
+    <RecipeInfo>
+      <CrtModifyStatus>NEWONE</CrtModifyStatus>
+      <ID>3</ID>
+      <Name>Sparkling Water</Name>
+      <_lstIngredientStep>
+        <IngredientStep StartTime="0" ID="100" Name="ig100.cowater" Volume="0" Type="5" ScaleRate="100" />
+      </_lstIngredientStep>
+      <PublicInfo CupSensor="1" UseCount="1" Ledmode="1" LedColor="1" LedIntensity="1" DispenseType="1" setStrength="0" setVolume="1" setMilk="0" setSugar="0" setCups="0" price="0" />
+    </RecipeInfo>
+    <RecipeInfo>
+      <CrtModifyStatus>NEWONE</CrtModifyStatus>
+      <ID>4</ID>
+      <Name>Coffee</Name>
+      <_lstIngredientStep>
+        <IngredientStep StartTime="0" ID="1" Name="ing_coffee" Volume="181" Type="2" ScaleRate="100" />
+      </_lstIngredientStep>
+      <PublicInfo CupSensor="1" UseCount="1" Ledmode="1" LedColor="1" LedIntensity="1" DispenseType="2" setStrength="1" setVolume="1" setMilk="0" setSugar="0" setCups="0" price="0" />
+    </RecipeInfo>
+    <RecipeInfo>
+      <CrtModifyStatus>NEWONE</CrtModifyStatus>
+      <ID>5</ID>
+      <Name>Small Coffee</Name>
+      <_lstIngredientStep>
+        <IngredientStep StartTime="0" ID="2" Name="ing_small_coffee" Volume="119" Type="2" ScaleRate="100" />
+      </_lstIngredientStep>
+      <PublicInfo CupSensor="1" UseCount="1" Ledmode="1" LedColor="1" LedIntensity="1" DispenseType="2" setStrength="1" setVolume="1" setMilk="0" setSugar="0" setCups="0" price="0" />
+    </RecipeInfo>
+    <RecipeInfo>
+      <CrtModifyStatus>NEWONE</CrtModifyStatus>
+      <ID>6</ID>
+      <Name>Coffee with Milk</Name>
+      <_lstIngredientStep>
+        <IngredientStep StartTime="0" ID="4" Name="ing3_coffee" Volume="131" Type="2" ScaleRate="100" />
+        <IngredientStep StartTime="35000" ID="3" Name="ing3_milk" Volume="54" Type="4" ScaleRate="100" />
+      </_lstIngredientStep>
+      <PublicInfo CupSensor="1" UseCount="1" Ledmode="1" LedColor="1" LedIntensity="1" DispenseType="2" setStrength="1" setVolume="1" setMilk="1" setSugar="0" setCups="0" price="0" />
+    </RecipeInfo>
+    <RecipeInfo>
+      <CrtModifyStatus>NEWONE</CrtModifyStatus>
+      <ID>7</ID>
+      <Name>Espresso</Name>
+      <_lstIngredientStep>
+        <IngredientStep StartTime="0" ID="5" Name="ing4_espresso" Volume="41" Type="4" ScaleRate="100" />
+      </_lstIngredientStep>
+      <PublicInfo CupSensor="1" UseCount="1" Ledmode="1" LedColor="1" LedIntensity="1" DispenseType="2" setStrength="1" setVolume="1" setMilk="0" setSugar="0" setCups="0" price="0" />
+    </RecipeInfo>
+    <RecipeInfo>
+      <CrtModifyStatus>NEWONE</CrtModifyStatus>
+      <ID>8</ID>
+      <Name>Café au Lait</Name>
+      <_lstIngredientStep>
+        <IngredientStep StartTime="0" ID="6" Name="ig5.coffee" Volume="120" Type="2" ScaleRate="100" />
+        <IngredientStep StartTime="35000" ID="7" Name="ig5.milk" Volume="68" Type="4" ScaleRate="100" />
+      </_lstIngredientStep>
+      <PublicInfo CupSensor="1" UseCount="1" Ledmode="1" LedColor="1" LedIntensity="1" DispenseType="2" setStrength="1" setVolume="1" setMilk="1" setSugar="0" setCups="0" price="0" />
+    </RecipeInfo>
+    <RecipeInfo>
+      <CrtModifyStatus>NEWONE</CrtModifyStatus>
+      <ID>9</ID>
+      <Name>Cappuccino</Name>
+      <_lstIngredientStep>
+        <IngredientStep StartTime="0" ID="9" Name="ig6.milk" Volume="95" Type="4" ScaleRate="100" />
+        <IngredientStep StartTime="10000" ID="8" Name="ig6.espresso" Volume="67" Type="4" ScaleRate="100" />
+      </_lstIngredientStep>
+      <PublicInfo CupSensor="1" UseCount="1" Ledmode="1" LedColor="1" LedIntensity="1" DispenseType="2" setStrength="1" setVolume="1" setMilk="1" setSugar="0" setCups="0" price="0" />
+    </RecipeInfo>
+    <RecipeInfo>
+      <CrtModifyStatus>NEWONE</CrtModifyStatus>
+      <ID>10</ID>
+      <Name>Caffè Latte</Name>
+      <_lstIngredientStep>
+        <IngredientStep StartTime="0" ID="10" Name="ig7.lat.espresso" Volume="57" Type="4" ScaleRate="100" />
+        <IngredientStep StartTime="8000" ID="11" Name="ig7.lat.milk" Volume="109" Type="4" ScaleRate="100" />
+      </_lstIngredientStep>
+      <PublicInfo CupSensor="1" UseCount="1" Ledmode="1" LedColor="1" LedIntensity="1" DispenseType="2" setStrength="1" setVolume="1" setMilk="1" setSugar="0" setCups="0" price="0" />
+    </RecipeInfo>
+    <RecipeInfo>
+      <CrtModifyStatus>NEWONE</CrtModifyStatus>
+      <ID>11</ID>
+      <Name>Café Mocca</Name>
+      <_lstIngredientStep>
+        <IngredientStep StartTime="0" ID="13" Name="ig8.mocca.milk" Volume="77" Type="4" ScaleRate="100" />
+        <IngredientStep StartTime="8000" ID="14" Name="ig8.mocca.choco" Volume="66" Type="4" ScaleRate="100" />
+        <IngredientStep StartTime="12000" ID="12" Name="ig8.mocca.espresso" Volume="37" Type="4" ScaleRate="100" />
+      </_lstIngredientStep>
+      <PublicInfo CupSensor="1" UseCount="1" Ledmode="1" LedColor="1" LedIntensity="1" DispenseType="2" setStrength="1" setVolume="1" setMilk="1" setSugar="0" setCups="0" price="0" />
+    </RecipeInfo>
+    <RecipeInfo>
+      <CrtModifyStatus>NEWONE</CrtModifyStatus>
+      <ID>12</ID>
+      <Name>Chocolate</Name>
+      <_lstIngredientStep>
+        <IngredientStep StartTime="0" ID="15" Name="ig9.chocolate" Volume="170" Type="4" ScaleRate="100" />
+      </_lstIngredientStep>
+      <PublicInfo CupSensor="1" UseCount="1" Ledmode="1" LedColor="1" LedIntensity="1" DispenseType="2" setStrength="0" setVolume="1" setMilk="0" setSugar="0" setCups="0" price="0" />
+    </RecipeInfo>
+    <RecipeInfo>
+      <CrtModifyStatus>NEWONE</CrtModifyStatus>
+      <ID>13</ID>
+      <Name>Milk Chocolate</Name>
+      <_lstIngredientStep>
+        <IngredientStep StartTime="0" ID="16" Name="ig10.milk" Volume="86" Type="4" ScaleRate="100" />
+        <IngredientStep StartTime="8000" ID="17" Name="ig10.choco" Volume="94" Type="4" ScaleRate="100" />
+      </_lstIngredientStep>
+      <PublicInfo CupSensor="1" UseCount="1" Ledmode="1" LedColor="1" LedIntensity="1" DispenseType="2" setStrength="0" setVolume="1" setMilk="1" setSugar="0" setCups="0" price="0" />
+    </RecipeInfo>
+    <RecipeInfo>
+      <CrtModifyStatus>NEWONE</CrtModifyStatus>
+      <ID>14</ID>
+      <Name>Add Milk</Name>
+      <_lstIngredientStep>
+        <IngredientStep StartTime="0" ID="18" Name="ig11.add.milk" Volume="54" Type="4" ScaleRate="100" />
+      </_lstIngredientStep>
+      <PublicInfo CupSensor="1" UseCount="1" Ledmode="1" LedColor="1" LedIntensity="1" DispenseType="2" setStrength="0" setVolume="1" setMilk="1" setSugar="0" setCups="0" price="0" />
+    </RecipeInfo>
+    <RecipeInfo>
+      <CrtModifyStatus>NEWONE</CrtModifyStatus>
+      <ID>15</ID>
+      <Name>Double Espresso</Name>
+      <_lstIngredientStep>
+        <IngredientStep StartTime="0" ID="19" Name="ig12.double.espresso" Volume="83" Type="4" ScaleRate="100" />
+      </_lstIngredientStep>
+      <PublicInfo CupSensor="1" UseCount="1" Ledmode="1" LedColor="1" LedIntensity="1" DispenseType="2" setStrength="1" setVolume="1" setMilk="0" setSugar="0" setCups="0" price="0" />
+    </RecipeInfo>
+    <RecipeInfo>
+      <CrtModifyStatus>NEWONE</CrtModifyStatus>
+      <ID>16</ID>
+      <Name>Latte Macchiato</Name>
+      <_lstIngredientStep>
+        <IngredientStep StartTime="0" ID="20" Name="ig13.latmoc.milk" Volume="57" Type="4" ScaleRate="100" />
+        <IngredientStep StartTime="13000" ID="21" Name="ig13.latmoc.espresso" Volume="42" Type="4" ScaleRate="100" />
+        <IngredientStep StartTime="21000" ID="49" Name="ig13.mac.milk2" Volume="78" Type="4" ScaleRate="100" />
+      </_lstIngredientStep>
+      <PublicInfo CupSensor="1" UseCount="1" Ledmode="1" LedColor="1" LedIntensity="1" DispenseType="2" setStrength="1" setVolume="1" setMilk="1" setSugar="0" setCups="0" price="0" />
+    </RecipeInfo>
+    <RecipeInfo>
+      <CrtModifyStatus>NEWONE</CrtModifyStatus>
+      <ID>17</ID>
+      <Name>Espresso-Choc</Name>
+      <_lstIngredientStep>
+        <IngredientStep StartTime="0" ID="22" Name="ig14.eschoco.milk" Volume="62" Type="4" ScaleRate="100" />
+        <IngredientStep StartTime="7000" ID="23" Name="ig14.eschoco.choc" Volume="80" Type="4" ScaleRate="100" />
+        <IngredientStep StartTime="12000" ID="24" Name="ig14.eschoco.es" Volume="37" Type="4" ScaleRate="100" />
+      </_lstIngredientStep>
+      <PublicInfo CupSensor="1" UseCount="1" Ledmode="1" LedColor="1" LedIntensity="1" DispenseType="2" setStrength="1" setVolume="1" setMilk="1" setSugar="0" setCups="0" price="0" />
+    </RecipeInfo>
+    <RecipeInfo>
+      <CrtModifyStatus>NEWONE</CrtModifyStatus>
+      <ID>18</ID>
+      <Name>Coffee Instant</Name>
+      <_lstIngredientStep>
+        <IngredientStep StartTime="0" ID="25" Name="ig15.coffe4.inst" Volume="163" Type="4" ScaleRate="100" />
+      </_lstIngredientStep>
+      <PublicInfo CupSensor="1" UseCount="1" Ledmode="1" LedColor="1" LedIntensity="1" DispenseType="2" setStrength="1" setVolume="1" setMilk="0" setSugar="0" setCups="0" price="0" />
+    </RecipeInfo>
+    <RecipeInfo>
+      <CrtModifyStatus>NEWONE</CrtModifyStatus>
+      <ID>19</ID>
+      <Name>Moccaccino</Name>
+      <_lstIngredientStep>
+        <IngredientStep StartTime="0" ID="26" Name="ig16.moc.milk" Volume="76" Type="4" ScaleRate="100" />
+        <IngredientStep StartTime="8000" ID="27" Name="ig16.moc.choc" Volume="64" Type="4" ScaleRate="100" />
+        <IngredientStep StartTime="12000" ID="28" Name="ig16.moc.es" Volume="37" Type="4" ScaleRate="100" />
+      </_lstIngredientStep>
+      <PublicInfo CupSensor="1" UseCount="1" Ledmode="1" LedColor="1" LedIntensity="1" DispenseType="2" setStrength="1" setVolume="1" setMilk="1" setSugar="0" setCups="0" price="0" />
+    </RecipeInfo>
+    <RecipeInfo>
+      <CrtModifyStatus>NEWONE</CrtModifyStatus>
+      <ID>20</ID>
+      <Name>Caffè Latte FB</Name>
+      <_lstIngredientStep>
+        <IngredientStep StartTime="0" ID="29" Name="ig17.fb.cflat.cf" Volume="69" Type="2" ScaleRate="100" />
+        <IngredientStep StartTime="32000" ID="30" Name="ig17.fb.cflat.mlk" Volume="94" Type="4" ScaleRate="100" />
+      </_lstIngredientStep>
+      <PublicInfo CupSensor="1" UseCount="1" Ledmode="1" LedColor="1" LedIntensity="1" DispenseType="2" setStrength="1" setVolume="1" setMilk="1" setSugar="0" setCups="0" price="0" />
+    </RecipeInfo>
+    <RecipeInfo>
+      <CrtModifyStatus>NEWONE</CrtModifyStatus>
+      <ID>21</ID>
+      <Name>Café Mocca FB</Name>
+      <_lstIngredientStep>
+        <IngredientStep StartTime="0" ID="31" Name="ig18.fb.moc.cf" Volume="57" Type="2" ScaleRate="100" />
+        <IngredientStep StartTime="35000" ID="32" Name="ig18.fb.moc.mlk" Volume="72" Type="4" ScaleRate="100" />
+        <IngredientStep StartTime="43000" ID="33" Name="ig18.fb.moc.choc" Volume="66" Type="4" ScaleRate="100" />
+      </_lstIngredientStep>
+      <PublicInfo CupSensor="1" UseCount="1" Ledmode="1" LedColor="1" LedIntensity="1" DispenseType="2" setStrength="1" setVolume="1" setMilk="1" setSugar="0" setCups="0" price="0" />
+    </RecipeInfo>
+    <RecipeInfo>
+      <CrtModifyStatus>NEWONE</CrtModifyStatus>
+      <ID>22</ID>
+      <Name>Cappuccino FB</Name>
+      <_lstIngredientStep>
+        <IngredientStep StartTime="0" ID="34" Name="ig19.fb.cap.cf" Volume="79" Type="2" ScaleRate="100" />
+        <IngredientStep StartTime="35000" ID="35" Name="ig19.fb.cap.mlk" Volume="100" Type="4" ScaleRate="100" />
+      </_lstIngredientStep>
+      <PublicInfo CupSensor="1" UseCount="1" Ledmode="1" LedColor="1" LedIntensity="1" DispenseType="2" setStrength="1" setVolume="1" setMilk="1" setSugar="0" setCups="0" price="0" />
+    </RecipeInfo>
+    <RecipeInfo>
+      <CrtModifyStatus>NEWONE</CrtModifyStatus>
+      <ID>23</ID>
+      <Name>Espresso FB</Name>
+      <_lstIngredientStep>
+        <IngredientStep StartTime="0" ID="36" Name="ig20.fb.es" Volume="73" Type="2" ScaleRate="100" />
+      </_lstIngredientStep>
+      <PublicInfo CupSensor="1" UseCount="1" Ledmode="1" LedColor="1" LedIntensity="1" DispenseType="2" setStrength="1" setVolume="1" setMilk="0" setSugar="0" setCups="0" price="0" />
+    </RecipeInfo>
+    <RecipeInfo>
+      <CrtModifyStatus>NEWONE</CrtModifyStatus>
+      <ID>24</ID>
+      <Name>Moccaccino FB</Name>
+      <_lstIngredientStep>
+        <IngredientStep StartTime="0" ID="37" Name="ig21.fb.moc.cf" Volume="57" Type="2" ScaleRate="100" />
+        <IngredientStep StartTime="35000" ID="38" Name="ig21.fb.moc.mlk" Volume="76" Type="4" ScaleRate="100" />
+        <IngredientStep StartTime="43000" ID="39" Name="ig21.fb.moc.choc" Volume="59" Type="4" ScaleRate="100" />
+      </_lstIngredientStep>
+      <PublicInfo CupSensor="1" UseCount="1" Ledmode="1" LedColor="1" LedIntensity="1" DispenseType="2" setStrength="1" setVolume="1" setMilk="1" setSugar="0" setCups="0" price="0" />
+    </RecipeInfo>
+    <RecipeInfo>
+      <CrtModifyStatus>NEWONE</CrtModifyStatus>
+      <ID>25</ID>
+      <Name>Mocca Latte FB</Name>
+      <_lstIngredientStep>
+        <IngredientStep StartTime="0" ID="40" Name="ig22.fb.moclat.cf" Volume="58" Type="2" ScaleRate="100" />
+        <IngredientStep StartTime="35000" ID="41" Name="ig22.fb.moclat.mlk" Volume="76" Type="4" ScaleRate="100" />
+        <IngredientStep StartTime="43000" ID="42" Name="ig22.fb.moclat.choc" Volume="59" Type="4" ScaleRate="100" />
+      </_lstIngredientStep>
+      <PublicInfo CupSensor="1" UseCount="1" Ledmode="1" LedColor="1" LedIntensity="1" DispenseType="2" setStrength="1" setVolume="1" setMilk="1" setSugar="0" setCups="0" price="0" />
+    </RecipeInfo>
+    <RecipeInfo>
+      <CrtModifyStatus>NEWONE</CrtModifyStatus>
+      <ID>26</ID>
+      <Name>Latte Macchiato FB</Name>
+      <_lstIngredientStep>
+        <IngredientStep StartTime="0" ID="43" Name="ig23.fb.latmac.cf" Volume="58" Type="2" ScaleRate="100" />
+        <IngredientStep StartTime="35000" ID="44" Name="ig23.fb.latmac.mlk" Volume="52" Type="4" ScaleRate="100" />
+        <IngredientStep StartTime="42000" ID="48" Name="ig23.fb.latmac.milk2" Volume="66" Type="4" ScaleRate="100" />
+      </_lstIngredientStep>
+      <PublicInfo CupSensor="1" UseCount="1" Ledmode="1" LedColor="1" LedIntensity="1" DispenseType="2" setStrength="1" setVolume="1" setMilk="1" setSugar="0" setCups="0" price="0" />
+    </RecipeInfo>
+    <RecipeInfo>
+      <CrtModifyStatus>NEWONE</CrtModifyStatus>
+      <ID>27</ID>
+      <Name>Soup</Name>
+      <_lstIngredientStep>
+        <IngredientStep StartTime="0" ID="45" Name="ig24.soup" Volume="167" Type="4" ScaleRate="100" />
+      </_lstIngredientStep>
+      <PublicInfo CupSensor="1" UseCount="1" Ledmode="1" LedColor="1" LedIntensity="1" DispenseType="2" setStrength="1" setVolume="1" setMilk="0" setSugar="0" setCups="0" price="0" />
+    </RecipeInfo>
+    <RecipeInfo>
+      <CrtModifyStatus>NEWONE</CrtModifyStatus>
+      <ID>28</ID>
+      <Name>Coffee Instant with Milk</Name>
+      <_lstIngredientStep>
+        <IngredientStep StartTime="0" ID="46" Name="ig25.cofmlk.cof" Volume="92" Type="4" ScaleRate="100" />
+        <IngredientStep StartTime="8000" ID="47" Name="ig25.cofmlk.mlk" Volume="68" Type="4" ScaleRate="100" />
+      </_lstIngredientStep>
+      <PublicInfo CupSensor="1" UseCount="1" Ledmode="1" LedColor="1" LedIntensity="1" DispenseType="2" setStrength="1" setVolume="1" setMilk="1" setSugar="0" setCups="0" price="0" />
+    </RecipeInfo>
+  </_lstRecipeInfo>
+</EvoRecipe>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CLEAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <brewCleanProcess>
+    <COUNT>0</COUNT>
+    <WaterValveOpenTime>0</WaterValveOpenTime>
+    <WaterPauseTime>0</WaterPauseTime>
+    <WaterReleaseTime>0</WaterReleaseTime>
+    <BrewMotorRunTime>0</BrewMotorRunTime>
+  </brewCleanProcess>
+  <grinderCleanProcess>
+    <COUNT>0</COUNT>
+    <MotorRunTime>0</MotorRunTime>
+  </grinderCleanProcess>
+  <mixerCleanProcess>
+    <COUNT>0</COUNT>
+    <WaterValveOpenTime>0</WaterValveOpenTime>
+    <MixRunDelay>0</MixRunDelay>
+    <MixRunTime>0</MixRunTime>
+  </mixerCleanProcess>
+</CLEAN>

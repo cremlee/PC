@@ -1,0 +1,42 @@
+﻿<Window x:Class="CREM.EVO.EVODrinkMap"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CREM.EVO"
+        mc:Ignorable="d"
+        Title="EVODrinkMap" >
+    <Viewbox Stretch="Fill">
+        <Grid Height="800" Width="600">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Button Grid.Row="0" Grid.Column="0" Name="btn1" Margin="15" Content="null" FontSize="18"  Click="btn_Click"></Button>
+            <Button Grid.Row="0" Grid.Column="1" Name="btn2" Margin="15" Content="null" FontSize="18"    Click="btn_Click"></Button>
+            <Button Grid.Row="0" Grid.Column="2" Name="btn3" Margin="15" Content="null" FontSize="18"    Click="btn_Click"></Button>
+            <Button Grid.Row="0" Grid.Column="3" Name="btn4" Margin="15" Content="null" FontSize="18"    Click="btn_Click"></Button>
+            <Button Grid.Row="1" Grid.Column="0" Name="btn5" Margin="15" Content="null" FontSize="18"    Click="btn_Click"></Button>
+            <Button Grid.Row="1" Grid.Column="1" Name="btn6" Margin="15" Content="null" FontSize="18"    Click="btn_Click"></Button>
+            <Button Grid.Row="1" Grid.Column="2" Name="btn7" Margin="15" Content="null" FontSize="18"    Click="btn_Click" ></Button>
+            <Button Grid.Row="1" Grid.Column="3" Name="btn8" Margin="15" Content="null" FontSize="18"    Click="btn_Click" ></Button>
+            <Button Grid.Row="2" Grid.Column="0" Name="btn9" Margin="15" Content="null" FontSize="18"    Click="btn_Click" ></Button>
+            <Button  Grid.Row="2" Grid.Column="1" Name="btn10" Margin="15" Content="null" FontSize="18"  Click="btn_Click"  ></Button>
+            <Button  Grid.Row="2" Grid.Column="2" Name="btn11" Margin="15" Content="null" FontSize="18"  Click="btn_Click"  ></Button>
+            <Button  Grid.Row="2" Grid.Column="3" Name="btn12" Margin="15" Content="null" FontSize="18"  Click="btn_Click"  ></Button>
+            <Button  Grid.Row="3" Grid.Column="0" Name="btn13" Margin="15" Content="null" FontSize="18"  Click="btn_Click"  ></Button>
+            <Button  Grid.Row="3" Grid.Column="1" Name="btn14" Margin="15" Content="null" FontSize="18"  Click="btn_Click"  ></Button>
+            <Button  Grid.Row="3" Grid.Column="2" Name="btn15" Margin="15" Content="null" FontSize="18"  Click="btn_Click"  ></Button>
+            <Button  Grid.Row="3" Grid.Column="3" Name="btn16" Margin="15" Content="null" FontSize="18"  Click="btn_Click"  ></Button>
+
+        </Grid>
+    </Viewbox>
+</Window>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BTNMAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <m_DrinkItemList>
+    <DrinkItem DrinkPostion="1" DrinkID="4" DrinkName="Coffee" />
+    <DrinkItem DrinkPostion="2" DrinkID="7" DrinkName="Espresso" />
+    <DrinkItem DrinkPostion="3" DrinkID="16" DrinkName="Latte Macchiato" />
+    <DrinkItem DrinkPostion="4" DrinkID="13" DrinkName="Milk Chocolate" />
+    <DrinkItem DrinkPostion="5" DrinkID="5" DrinkName="Small Coffee" />
+    <DrinkItem DrinkPostion="6" DrinkID="15" DrinkName="Double Espresso" />
+    <DrinkItem DrinkPostion="7" DrinkID="11" DrinkName="Café Mocca" />
+    <DrinkItem DrinkPostion="8" DrinkID="12" DrinkName="Chocolate" />
+    <DrinkItem DrinkPostion="9" DrinkID="6" DrinkName="Coffe with Milk" />
+    <DrinkItem DrinkPostion="10" DrinkID="9" DrinkName="Cappuccino" />
+    <DrinkItem DrinkPostion="11" DrinkID="8" DrinkName="Café au Lait" />
+    <DrinkItem DrinkPostion="12" DrinkID="2" DrinkName="Tea Water" />
+    <DrinkItem DrinkPostion="13" DrinkID="14" DrinkName="Add Milk" />
+    <DrinkItem DrinkPostion="14" DrinkID="10" DrinkName="Caffè Latte" />
+    <DrinkItem DrinkPostion="15" DrinkID="1" DrinkName="Still Water" />
+    <DrinkItem DrinkPostion="16" DrinkID="3" DrinkName="Sparkling Water" />
+  </m_DrinkItemList>
+</BTNMAP>
